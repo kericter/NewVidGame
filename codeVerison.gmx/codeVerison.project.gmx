@@ -12,9 +12,25 @@
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_explosion</sprite>
     <sprite>sprites\spr_bullet</sprite>
-    <sprite>sprites\sprite3</sprite>
+    <sprite>sprites\spr_enemy_red</sprite>
     <sprite>sprites\spr_enemy_blue</sprite>
-    <sprite>sprites\sprite5</sprite>
+    <sprite>sprites\spr_enemy_bug</sprite>
+    <sprite>sprites\spr_enemy_brown</sprite>
+    <sprites name="tilesets">
+      <sprite>sprites\spr_tileset_righttop</sprite>
+      <sprite>sprites\spr_tileset_topcenter</sprite>
+      <sprite>sprites\spr_tileset_rightcorner</sprite>
+      <sprite>sprites\spr_tileset_leftcenter</sprite>
+      <sprite>sprites\spr_tileset_bottomleft</sprite>
+      <sprite>sprites\spr_tileset_bottomcenter</sprite>
+      <sprite>sprites\spr_tileset_bottomright</sprite>
+      <sprite>sprites\spr_tileset_rightcenter</sprite>
+      <sprite>sprites\spr_tileset_center</sprite>
+      <sprite>sprites\spr_top_left</sprite>
+      <sprite>sprites\spr_top_right</sprite>
+      <sprite>sprites\spr_bottom_left</sprite>
+      <sprite>sprites\spr_bottom_right</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -31,11 +47,28 @@
     <object>objects\obj_settings</object>
     <object>objects\obj_enemy_red</object>
     <object>objects\obj_enemy_blue</object>
+    <object>objects\obj_enemy_brown</object>
+    <object>objects\obj_enemy_bug</object>
     <object>objects\obj_box</object>
     <object>objects\object5</object>
+    <objects name="tileset_1">
+      <object>objects\obj_left_corner</object>
+      <object>objects\obj_top_center</object>
+      <object>objects\obj_right_corner</object>
+      <object>objects\obj_left_center</object>
+      <object>objects\obj_bottom_left</object>
+      <object>objects\obj_bottom_center</object>
+      <object>objects\obj_bottom_right</object>
+      <object>objects\obj_right_center</object>
+      <object>objects\obj_center</object>
+      <object>objects\obj_top_left</object>
+      <object>objects\obj_top_right</object>
+      <object>objects\obj_bottomleft</object>
+      <object>objects\obj_bottm_right</object>
+    </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\rm_level_one</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
