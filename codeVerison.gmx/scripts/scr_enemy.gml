@@ -14,3 +14,4 @@ if (hit != noone)
 {
     hit.hp -= 1;
 }
+vspeed = 2;

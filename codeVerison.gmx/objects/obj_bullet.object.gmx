@@ -25,22 +25,33 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>vspeed = -30;
-
-hit_1 = instance_place(x,y, obj_enemy_red);
+            <string>if (global.pause) exit;
+vspeed = -30;
+// Room clipping
 destroy = instance_place(x,y, obj_box);
+if (destroy) instance_destroy();
+// Red enemy
+hit_1 = instance_place(x,y, obj_enemy_red);
 
-if (hit_1 != noone)
-{
+if (hit_1 != noone) {
     hit_1.hp -= 1;
     instance_destroy();
 }
+// Blue eneby
 hit_2 = instance_place(x,y, obj_enemy_blue);
-destroy = instance_place(x,y, obj_box);
-
-if (hit_2 != noone)
-{
+if (hit_2 != noone) {
     hit_2.hp -= 1;
+    instance_destroy();
+}
+hit_3 = instance_place(x,y, obj_enemy_brown);
+if (hit_3 != noone) {
+    hit_3.hp -= 1;
+    instance_destroy();
+}
+
+hit_4 = instance_place(x,y, obj_enemy_bug);
+if (hit_4 != noone) {
+    hit_4.hp -= 1;
     instance_destroy();
 }
 </string>

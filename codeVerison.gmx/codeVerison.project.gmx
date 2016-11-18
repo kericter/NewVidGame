@@ -30,7 +30,11 @@
       <sprite>sprites\spr_top_right</sprite>
       <sprite>sprites\spr_bottom_left</sprite>
       <sprite>sprites\spr_bottom_right</sprite>
+      <sprite>sprites\sprite24</sprite>
     </sprites>
+    <sprite>sprites\sprite20</sprite>
+    <sprite>sprites\spr_enginefire</sprite>
+    <sprite>sprites\spr_option_arrow</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -40,8 +44,13 @@
     <script>scripts\scr_movment.gml</script>
     <script>scripts\scr_enemy.gml</script>
     <script>scripts\scr_death_state.gml</script>
+    <script>scripts\scr_menu.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\fnt_options</font>
+  </fonts>
   <objects name="objects">
+    <object>objects\obj_menu</object>
     <object>objects\obj_player</object>
     <object>objects\obj_bullet</object>
     <object>objects\obj_settings</object>
@@ -50,6 +59,7 @@
     <object>objects\obj_enemy_brown</object>
     <object>objects\obj_enemy_bug</object>
     <object>objects\obj_box</object>
+    <object>objects\obj_engine_fire</object>
     <object>objects\object5</object>
     <objects name="tileset_1">
       <object>objects\obj_left_corner</object>
@@ -65,9 +75,12 @@
       <object>objects\obj_top_right</object>
       <object>objects\obj_bottomleft</object>
       <object>objects\obj_bottm_right</object>
+      <object>objects\obj_turret_holder</object>
     </objects>
+    <object>objects\obj_pause</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_menu</room>
     <room>rooms\rm_level_one</room>
   </rooms>
   <help>
