@@ -1,4 +1,5 @@
 /// scr_enemy
+if (global.pause) exit;
 // enemy heatlh kill
 if (hp <= 0) {
     alarm[2] = room_speed/20;
@@ -9,7 +10,6 @@ if (hp <= 0) {
 }
 // damage player
     hit = instance_place(x,y, obj_player);
-
 if (hit != noone)
 {
     hit.hp -= 1;

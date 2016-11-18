@@ -37,21 +37,28 @@ if (hit_1 != noone) {
     hit_1.hp -= 1;
     instance_destroy();
 }
-// Blue eneby
+// Blue enemy
 hit_2 = instance_place(x,y, obj_enemy_blue);
 if (hit_2 != noone) {
     hit_2.hp -= 1;
     instance_destroy();
 }
+// Brown enemy
 hit_3 = instance_place(x,y, obj_enemy_brown);
 if (hit_3 != noone) {
     hit_3.hp -= 1;
     instance_destroy();
 }
-
+// Bug enemy
 hit_4 = instance_place(x,y, obj_enemy_bug);
 if (hit_4 != noone) {
     hit_4.hp -= 1;
+    instance_destroy();
+}
+// Turent enemy
+hit_5 = instance_place(x,y, obj_turret);
+if (hit_5 != noone) {
+    hit_5.hp -= 1;
     instance_destroy();
 }
 </string>

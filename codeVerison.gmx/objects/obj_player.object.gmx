@@ -143,7 +143,8 @@ if (hp &lt;= 0) {
           <argument>
             <kind>1</kind>
             <string>draw_self();
-draw_healthbar(x-25,y+16,x+25,y+22,hp,c_black,c_red,c_green,0,true,true);
+draw_healthbar(x-25,y+20,x+25,y+26,hp,c_black,c_red,c_green,0,true,true);
+draw_sprite(spr_enginefire,0,x,y+16);
 </string>
           </argument>
         </arguments>

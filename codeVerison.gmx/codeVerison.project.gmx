@@ -35,6 +35,8 @@
     <sprite>sprites\sprite20</sprite>
     <sprite>sprites\spr_enginefire</sprite>
     <sprite>sprites\spr_option_arrow</sprite>
+    <sprite>sprites\spr_turret_1</sprite>
+    <sprite>sprites\spr_turret_2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -59,8 +61,8 @@
     <object>objects\obj_enemy_brown</object>
     <object>objects\obj_enemy_bug</object>
     <object>objects\obj_box</object>
-    <object>objects\obj_engine_fire</object>
     <object>objects\object5</object>
+    <object>objects\obj_pause</object>
     <objects name="tileset_1">
       <object>objects\obj_left_corner</object>
       <object>objects\obj_top_center</object>
@@ -76,8 +78,8 @@
       <object>objects\obj_bottomleft</object>
       <object>objects\obj_bottm_right</object>
       <object>objects\obj_turret_holder</object>
+      <object>objects\obj_turret</object>
     </objects>
-    <object>objects\obj_pause</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
