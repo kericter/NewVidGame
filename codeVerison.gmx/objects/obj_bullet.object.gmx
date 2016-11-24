@@ -61,6 +61,12 @@ if (hit_5 != noone) {
     hit_5.hp -= 1;
     instance_destroy();
 }
+// Turret Bullets
+hit_6 = instance_place(x,y, obj_enemy_bullet);
+if (hit_6 != noone) {
+    hit_6.hp -= 1;
+    instance_destroy();
+}
 </string>
           </argument>
         </arguments>
