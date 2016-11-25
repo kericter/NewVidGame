@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hp = 1;
+            <string>/// Hp
+hp = 1;
 state = scr_enemy;
 </string>
           </argument>
@@ -96,22 +97,10 @@ alarm[3] = room_speed/2
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// scr_enemy
+            <string>/// execute
 if (global.pause) exit;
-// enemy heatlh kill
-if (hp &lt;= 0) {
-    alarm[2] = room_speed/20;
-    sprite_index = spr_explosion;
-    image_speed = .5;
-    state = scr_death_state;
-    audio_play_sound(snd_explosion, 10, false);
-}
-// damage player
-    hit = instance_place(x,y, obj_player);
-if (hit != noone)
-{
-    hit.hp -= 1;
-}
+script_execute(state);
+if (place_meeting(x,y,obj_player)) instance_destroy();
 </string>
           </argument>
         </arguments>

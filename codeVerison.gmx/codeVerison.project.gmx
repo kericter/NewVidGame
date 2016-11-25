@@ -61,10 +61,11 @@
     <object>objects\obj_enemy_blue</object>
     <object>objects\obj_enemy_brown</object>
     <object>objects\obj_enemy_bug</object>
+    <object>objects\obj_enemy_bullet</object>
     <object>objects\obj_box</object>
     <object>objects\object5</object>
     <object>objects\obj_pause</object>
-    <object>objects\obj_enemy_bullet</object>
+    <object>objects\h</object>
     <objects name="tileset_1">
       <object>objects\obj_left_corner</object>
       <object>objects\obj_top_center</object>

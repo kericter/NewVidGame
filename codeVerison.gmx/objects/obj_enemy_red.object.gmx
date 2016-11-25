@@ -101,6 +101,7 @@ alarm[3] = room_speed/2;
             <string>/// execute
 if (global.pause) exit;
 script_execute(state);
+vspeed = 1;
 
 </string>
           </argument>
