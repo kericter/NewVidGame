@@ -27,10 +27,9 @@
             <kind>1</kind>
             <string>menu[0] = "Start";
 menu[1] = "Tutorial";
-menu[2] = "Level Select";
-menu[3] = "Quit";
+menu[2] = "Quit";
 
-space = 64;
+space = 100;
 mpos = 0;
 </string>
           </argument>
@@ -94,17 +93,33 @@ if (push == 1) scr_menu();
             <string>draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
 draw_set_font(fnt_options);
-draw_set_color(c_white);
+draw_set_color(c_blue);
 
 var m;
-for (m = 0; m &lt; array_length_1d(menu); m+= 1) {
-    draw_text(x + space, y + (m * space),string(menu[m]))   
+for (m = 0; m &lt; array_length_1d(menu); m += 1) {
+    draw_text(x + space,y + (m * space),string(menu[m]))   
 }
 
-draw_sprite(sprite_index, 0, x + 16, y + mpos * space);
+draw_sprite(sprite_index,0,x + 16,y + mpos * space);
 </string>
           </argument>
         </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="27">
+      <action>
+        <libid>1</libid>
+        <id>332</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>0</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_end_game</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
       </action>
     </event>
   </events>

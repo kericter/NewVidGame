@@ -29,7 +29,7 @@
 vx = 0;
 vy = 0;
 player_speed = 5;
-hp = 100;
+hp = 50;
 image_index = 2;
 image_speed = 0;
 state = scr_movment;
@@ -59,6 +59,7 @@ state = scr_movment;
 if (keyboard_check(vk_space)) {
     instance_create(x+15, y+10, obj_bullet);
     instance_create(x-15, y+10, obj_bullet);
+    instance_create(x, y+13, obj_bullet);
     alarm[1] = room_speed/6;
     audio_play_sound(snd_shoot, 10, false);
 }
@@ -146,7 +147,6 @@ if (hp &lt;= 0) {
 draw_sprite(spr_enginefire,0,x,y+16);
 draw_sprite(spr_enginefire,1,x,y+16);
 draw_healthbar(x-25,y+30,x+25,y+36,hp,c_black,c_red,c_green,0,true,true);
-
 </string>
           </argument>
         </arguments>

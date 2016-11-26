@@ -36,11 +36,12 @@
     <sprite>sprites\spr_enginefire</sprite>
     <sprite>sprites\spr_option_arrow</sprite>
     <sprite>sprites\spr_turret_1</sprite>
-    <sprite>sprites\spr_turret_2</sprite>
     <sprite>sprites\spr_enemy_bullet</sprite>
+    <sprite>sprites\obj_box_2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\background1</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -63,9 +64,10 @@
     <object>objects\obj_enemy_bug</object>
     <object>objects\obj_enemy_bullet</object>
     <object>objects\obj_box</object>
+    <object>objects\object_box2</object>
     <object>objects\object5</object>
+    <object>objects\obj_tutorial</object>
     <object>objects\obj_pause</object>
-    <object>objects\h</object>
     <objects name="tileset_1">
       <object>objects\obj_left_corner</object>
       <object>objects\obj_top_center</object>
@@ -87,6 +89,7 @@
   <rooms name="rooms">
     <room>rooms\rm_menu</room>
     <room>rooms\rm_level_one</room>
+    <room>rooms\rm_tutorial</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

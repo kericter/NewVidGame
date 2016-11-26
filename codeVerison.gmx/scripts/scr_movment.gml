@@ -34,5 +34,6 @@ if (right) {
 if keyboard_check_pressed(vk_space) {
     alarm[1] = room_speed/6;
     instance_create(x+15, y+10, obj_bullet);
+    instance_create(x, y+13, obj_bullet);
     instance_create(x-15, y+10, obj_bullet);
 }
