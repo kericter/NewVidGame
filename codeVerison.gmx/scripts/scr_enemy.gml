@@ -1,5 +1,8 @@
 /// scr_enemy
-if (global.pause) exit;
+if (global.pause) {
+    exit;
+    vspeed = 0;
+}
 // enemy heatlh kill
 if (hp <= 0) {
     alarm[2] = room_speed/20;
