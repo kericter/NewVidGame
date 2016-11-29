@@ -186,6 +186,7 @@ if ((can_shoot == true) &amp;&amp; (ammo &gt; 0) &amp;&amp; (cool_off = false)) 
     bullet_id.speed = 5;
     cool_off = true;
     alarm[11] = room_speed * 2;
+    audio_play_sound(snd_turret);
 }
 
 
