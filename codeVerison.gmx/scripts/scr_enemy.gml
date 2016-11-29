@@ -13,6 +13,7 @@ if (hp <= 0) {
     hit = instance_place(x,y, obj_player);
 if (hit != noone)
 {
-    hit.hp -= 1;
+    hit.hp -= 3;
 }
 if (place_meeting(x,y,object_box2)) instance_destroy();
+if (place_meeting(x,y,obj_box)) spd = 2;

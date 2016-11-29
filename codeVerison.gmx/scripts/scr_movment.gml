@@ -22,11 +22,11 @@ y = max(y,18);
 // Sprite animation
 if (!left || !right) image_index = 2;
 if (left) {
-    alarm[0] = room_speed/2;
+    alarm[0] = room_speed*2;
     image_index = 1;
 }
 if (right) {
-    alarm[0] = room_speed/2;
+    alarm[0] = room_speed*2;
     image_index = 3;
 }
 

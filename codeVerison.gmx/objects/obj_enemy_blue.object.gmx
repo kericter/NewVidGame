@@ -28,6 +28,7 @@
             <string>/// Hp
 hp = 2;
 state = scr_enemy;
+spd = 1;
 </string>
           </argument>
         </arguments>
@@ -100,7 +101,7 @@ alarm[3] = room_speed/2
             <string>/// execute
 if (global.pause) exit;
 script_execute(state);
-vspeed = 1.5;
+vspeed = spd;
 </string>
           </argument>
         </arguments>
