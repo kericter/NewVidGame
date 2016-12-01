@@ -96,7 +96,7 @@ alarm[2] = room_speed * 3;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>intro = "Use the arrow keys to move around";
+            <string>intro = "Use the WSAD keys to move around";
 alarm[1] = room_speed * 5;
 </string>
           </argument>
