@@ -41,6 +41,7 @@
     <sprite>sprites\spr_turret_1</sprite>
     <sprite>sprites\spr_enemy_bullet</sprite>
     <sprite>sprites\obj_box_2</sprite>
+    <sprite>sprites\spr_title</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
