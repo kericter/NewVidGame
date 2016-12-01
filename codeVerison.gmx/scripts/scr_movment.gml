@@ -37,3 +37,5 @@ if keyboard_check_pressed(vk_space) {
     instance_create(x, y+13, obj_bullet);
     instance_create(x-15, y+10, obj_bullet);
 }
+
+if (hp <= 0) room_goto(rm_menu);
