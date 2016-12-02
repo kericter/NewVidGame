@@ -36,6 +36,7 @@ hit_1 = instance_place(x,y, obj_enemy_red);
 if (hit_1 != noone) {
     hit_1.hp -= 1;
     global.points = global.points + 111;
+    audio_play_sound(snd_hit,1,false);
     instance_destroy();
 }
 // Blue enemy
@@ -43,6 +44,7 @@ hit_2 = instance_place(x,y, obj_enemy_blue);
 if (hit_2 != noone) {
     hit_2.hp -= 1;
     global.points = global.points + 111;
+    audio_play_sound(snd_hit,1,false);
     instance_destroy();
 }
 // Brown enemy
@@ -50,6 +52,7 @@ hit_3 = instance_place(x,y, obj_enemy_brown);
 if (hit_3 != noone) {
     hit_3.hp -= 1;
     global.points = global.points + 111;
+    audio_play_sound(snd_hit,1,false);
     instance_destroy();
 }
 // Bug enemy
@@ -57,6 +60,7 @@ hit_4 = instance_place(x,y, obj_enemy_bug);
 if (hit_4 != noone) {
     hit_4.hp -= 1;
     global.points = global.points + 111;
+    audio_play_sound(snd_hit,1,false);
     instance_destroy();
 }
 // Turent enemy
@@ -64,6 +68,7 @@ hit_5 = instance_place(x,y, obj_turret);
 if (hit_5 != noone) {
     hit_5.hp -= 1;
     global.points = global.points + 111;
+    audio_play_sound(snd_hit,1,false);
     instance_destroy();
 }
 hit_6 = instance_place(x,y, obj_enemy_bullet);
@@ -77,6 +82,7 @@ hit_7 = instance_place(x,y, obj_boss);
 if (hit_7 != noone) {
     hit_7.hp -= 1;
     instance_destroy();
+    audio_play_sound(snd_hit,1,false);
 }
 </string>
           </argument>

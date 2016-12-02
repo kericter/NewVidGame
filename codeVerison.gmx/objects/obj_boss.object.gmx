@@ -31,7 +31,7 @@ state = scr_enemy;
 spd = 1;
 
 los = 200;
-rspeed = 10;
+rspeed = 3;
 distance_to_player = 10000;
 active = false;
 can_shoot = false;

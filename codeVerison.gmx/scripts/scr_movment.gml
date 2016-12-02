@@ -1,9 +1,9 @@
 /// scr_movement
 // Check for movment
-left = keyboard_check(ord("A"));
-right = keyboard_check(ord("D"));
-up = keyboard_check(ord("W"));
-down = keyboard_check(ord("S"));
+left = max(keyboard_check(vk_left), keyboard_check(ord("A")),0);
+right = max(keyboard_check(vk_right), keyboard_check(ord("D")),0);
+up = max(keyboard_check(vk_up), keyboard_check(ord("W")),0);
+down = max(keyboard_check(vk_down), keyboard_check(ord("S")),0);
 canshoot = keyboard_check_pressed(vk_space);
 
 // Movment
