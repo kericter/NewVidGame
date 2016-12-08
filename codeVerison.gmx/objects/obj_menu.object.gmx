@@ -102,7 +102,7 @@ for (m = 0; m &lt; array_length_1d(menu); m += 1) {
     draw_text(x + space,y + (m * space),string(menu[m]))   
 }
 
-draw_sprite(spr_option_arrow,-1,x + 10,y + mpos * space);
+draw_sprite(spr_option_arrow,image_index,x + 10,y + mpos * space);
 </string>
           </argument>
         </arguments>

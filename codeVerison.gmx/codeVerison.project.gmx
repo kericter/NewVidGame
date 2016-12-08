@@ -19,22 +19,6 @@
     <sprite>sprites\spr_enemy_blue</sprite>
     <sprite>sprites\spr_enemy_bug</sprite>
     <sprite>sprites\spr_enemy_brown</sprite>
-    <sprites name="tilesets">
-      <sprite>sprites\spr_tileset_righttop</sprite>
-      <sprite>sprites\spr_tileset_topcenter</sprite>
-      <sprite>sprites\spr_tileset_rightcorner</sprite>
-      <sprite>sprites\spr_tileset_leftcenter</sprite>
-      <sprite>sprites\spr_tileset_bottomleft</sprite>
-      <sprite>sprites\spr_tileset_bottomcenter</sprite>
-      <sprite>sprites\spr_tileset_bottomright</sprite>
-      <sprite>sprites\spr_tileset_rightcenter</sprite>
-      <sprite>sprites\spr_tileset_center</sprite>
-      <sprite>sprites\spr_top_left</sprite>
-      <sprite>sprites\spr_top_right</sprite>
-      <sprite>sprites\spr_bottom_left</sprite>
-      <sprite>sprites\spr_bottom_right</sprite>
-      <sprite>sprites\sprite24</sprite>
-    </sprites>
     <sprite>sprites\sprite20</sprite>
     <sprite>sprites\sprite29</sprite>
     <sprite>sprites\spr_enginefire</sprite>
@@ -43,6 +27,32 @@
     <sprite>sprites\spr_enemy_bullet</sprite>
     <sprite>sprites\obj_box_2</sprite>
     <sprite>sprites\spr_title</sprite>
+    <sprites name="level_two">
+      <sprites name="tileset">
+        <sprite>sprites\spr_two_center</sprite>
+      </sprites>
+      <sprites name="transition_level_two">
+        <sprite>sprites\spr_trans_center</sprite>
+      </sprites>
+    </sprites>
+    <sprites name="level_one">
+      <sprites name="tilesets">
+        <sprite>sprites\spr_tileset_righttop</sprite>
+        <sprite>sprites\spr_tileset_topcenter</sprite>
+        <sprite>sprites\spr_tileset_rightcorner</sprite>
+        <sprite>sprites\spr_tileset_leftcenter</sprite>
+        <sprite>sprites\spr_tileset_bottomleft</sprite>
+        <sprite>sprites\spr_tileset_bottomcenter</sprite>
+        <sprite>sprites\spr_tileset_bottomright</sprite>
+        <sprite>sprites\spr_tileset_rightcenter</sprite>
+        <sprite>sprites\spr_tileset_center</sprite>
+        <sprite>sprites\spr_top_left</sprite>
+        <sprite>sprites\spr_top_right</sprite>
+        <sprite>sprites\spr_bottom_left</sprite>
+        <sprite>sprites\spr_bottom_right</sprite>
+        <sprite>sprites\sprite24</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -101,6 +111,7 @@
     <room>rooms\rm_title_screen</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_level_one</room>
+    <room>rooms\rm_level_two</room>
     <room>rooms\rm_tutorial</room>
     <room>rooms\rm_vectory_</room>
   </rooms>
