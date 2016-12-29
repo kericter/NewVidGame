@@ -29,10 +29,26 @@
     <sprite>sprites\spr_title</sprite>
     <sprites name="level_two">
       <sprites name="tileset">
+        <sprite>sprites\spr_two_top_left</sprite>
+        <sprite>sprites\spr_two_top</sprite>
+        <sprite>sprites\spri_two_top_right</sprite>
+        <sprite>sprites\spr_two_left</sprite>
+        <sprite>sprites\spr_two_right</sprite>
+        <sprite>sprites\spr_two_bottom_left</sprite>
+        <sprite>sprites\spr_two_bottom</sprite>
+        <sprite>sprites\spr_two_bottom_right</sprite>
         <sprite>sprites\spr_two_center</sprite>
       </sprites>
       <sprites name="transition_level_two">
         <sprite>sprites\spr_trans_center</sprite>
+        <sprite>sprites\spr_trans_top</sprite>
+        <sprite>sprites\spr_trans_top_right</sprite>
+        <sprite>sprites\spr_trans_right</sprite>
+        <sprite>sprites\spr_trans_left</sprite>
+        <sprite>sprites\spr_trans_bottom_left</sprite>
+        <sprite>sprites\spr_trans_bottom</sprite>
+        <sprite>sprites\spr_trans_bottom_right</sprite>
+        <sprite>sprites\spr_trans_top_left</sprite>
       </sprites>
     </sprites>
     <sprites name="level_one">
@@ -106,12 +122,36 @@
       <object>objects\obj_turret</object>
     </objects>
     <object>objects\obj_title</object>
+    <objects name="level_two">
+      <objects name="transistion_tilesets">
+        <object>objects\obj_trans_top</object>
+        <object>objects\obj_trans_center</object>
+        <object>objects\obj_trans_top_right</object>
+        <object>objects\obj_trans_left</object>
+        <object>objects\obj_trans_bottom_left</object>
+        <object>objects\obj_trans_bottom</object>
+        <object>objects\obj_trans_bottom_right</object>
+        <object>objects\obj_trans_top_left</object>
+        <object>objects\obj_trans_right</object>
+      </objects>
+      <objects name="two_tilesets">
+        <object>objects\obj_two_center</object>
+        <object>objects\obj_two_bottom_right</object>
+        <object>objects\obj_two_bottom</object>
+        <object>objects\obj_two_bottom_left</object>
+        <object>objects\obj_two_right</object>
+        <object>objects\obj_two_left</object>
+        <object>objects\obj_two_top_right</object>
+        <object>objects\obj_two_top</object>
+        <object>objects\obj_two_top_left</object>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_level_two</room>
     <room>rooms\rm_title_screen</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_level_one</room>
-    <room>rooms\rm_level_two</room>
     <room>rooms\rm_tutorial</room>
     <room>rooms\rm_vectory_</room>
   </rooms>
