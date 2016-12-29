@@ -34,6 +34,56 @@ image_index = 2;
 image_speed = 0;
 state = scr_movment;
 spd = 1;
+cool = 0;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="9">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>cool = 1
+state = scr_movment
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="8">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>cool = 0;
+state = scr_death_state;
+alarm[9] = room_speed * 15;
 </string>
           </argument>
         </arguments>
@@ -57,14 +107,13 @@ spd = 1;
           <argument>
             <kind>1</kind>
             <string>/// Shooting
-if (keyboard_check(vk_space)) {
+if (keyboard_check_pressed(vk_space)) {
     instance_create(x+15, y+10, obj_bullet);
     instance_create(x-15, y+10, obj_bullet);
     instance_create(x, y+13, obj_bullet);
     alarm[1] = room_speed/6;
     audio_play_sound(snd_shoot, 10, false);
 }
-
 </string>
           </argument>
         </arguments>
@@ -125,7 +174,9 @@ if (hp &lt;= 0) {
 if (instance_exists(obj_level_complete1)) {
     room_goto(rm_vectory_);
 }
-
+if (cool = 1) {
+    
+}
 </string>
           </argument>
         </arguments>

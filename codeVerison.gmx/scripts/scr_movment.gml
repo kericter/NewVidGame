@@ -22,20 +22,20 @@ y = max(y,18);
 // Sprite animation
 if (!left || !right) image_index = 2;
 if (left) {
-    alarm[0] = room_speed*2;
+    alarm[0] = room_speed * 2;
     image_index = 1;
 }
 if (right) {
-    alarm[0] = room_speed*2;
+    alarm[0] = room_speed * 2;
     image_index = 3;
 }
 
 // Shooting
-if keyboard_check_pressed(vk_space) {
-    alarm[1] = room_speed/6;
+if (keyboard_check_pressed(vk_space)) {
     instance_create(x+15, y+10, obj_bullet);
-    instance_create(x, y+13, obj_bullet);
     instance_create(x-15, y+10, obj_bullet);
+    instance_create(x, y+13, obj_bullet);
+    audio_play_sound(snd_shoot, 10, false);
 }
 
 if (hp <= 0) room_goto(rm_menu);
