@@ -19,6 +19,7 @@
     <sprite>sprites\spr_enemy_blue</sprite>
     <sprite>sprites\spr_enemy_bug</sprite>
     <sprite>sprites\spr_enemy_brown</sprite>
+    <sprite>sprites\spr_enemy_leaf</sprite>
     <sprite>sprites\sprite20</sprite>
     <sprite>sprites\sprite29</sprite>
     <sprite>sprites\spr_enginefire</sprite>
@@ -73,6 +74,7 @@
   <backgrounds name="background">
     <background>background\background0</background>
     <background>background\background1</background>
+    <background>background\background2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -149,9 +151,9 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level_two</room>
+    <room>rooms\rm_level_one</room>
     <room>rooms\rm_title_screen</room>
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_level_one</room>
     <room>rooms\rm_tutorial</room>
     <room>rooms\rm_vectory_</room>
   </rooms>
