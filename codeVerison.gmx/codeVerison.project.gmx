@@ -51,6 +51,13 @@
         <sprite>sprites\spr_trans_bottom_right</sprite>
         <sprite>sprites\spr_trans_top_left</sprite>
       </sprites>
+      <sprites name="Sprites">
+        <sprite>sprites\spr_boss_1</sprite>
+        <sprite>sprites\spr_boss_top_right</sprite>
+        <sprite>sprites\spr_boss_top_left</sprite>
+        <sprite>sprites\spr_boss_bottom_right</sprite>
+        <sprite>sprites\spr_boss_bottom_left</sprite>
+      </sprites>
     </sprites>
     <sprites name="level_one">
       <sprites name="tilesets">
@@ -122,6 +129,11 @@
       <object>objects\obj_bottm_right</object>
       <object>objects\obj_turret_holder</object>
       <object>objects\obj_turret</object>
+      <object>objects\obj_boss_bottom_right</object>
+      <object>objects\obj_boss_bottom_left</object>
+      <object>objects\obj_boss_top_left</object>
+      <object>objects\obj_boss_top_right</object>
+      <object>objects\obj_boss_1</object>
     </objects>
     <object>objects\obj_title</object>
     <objects name="level_two">
