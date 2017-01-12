@@ -84,6 +84,7 @@ if (hit_7 != noone) {
     instance_destroy();
     audio_play_sound(snd_hit,1,false);
 }
+
 </string>
           </argument>
         </arguments>

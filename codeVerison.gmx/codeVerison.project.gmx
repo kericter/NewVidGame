@@ -89,6 +89,7 @@
     <script>scripts\scr_enemy.gml</script>
     <script>scripts\scr_death_state.gml</script>
     <script>scripts\scr_menu.gml</script>
+    <script>scripts\src_angleRotate.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_options</font>
@@ -101,6 +102,10 @@
     <object>objects\obj_settings</object>
     <object>objects\obj_enemy_red</object>
     <object>objects\obj_boss</object>
+    <object>objects\obj_boss_top_right</object>
+    <object>objects\obj_boss_top_left</object>
+    <object>objects\obj_boss_bottom_left</object>
+    <object>objects\obj_boss_bottom_right</object>
     <object>objects\obj_enemy_blue</object>
     <object>objects\obj_enemy_brown</object>
     <object>objects\obj_enemy_bug</object>
@@ -129,11 +134,6 @@
       <object>objects\obj_bottm_right</object>
       <object>objects\obj_turret_holder</object>
       <object>objects\obj_turret</object>
-      <object>objects\obj_boss_bottom_right</object>
-      <object>objects\obj_boss_bottom_left</object>
-      <object>objects\obj_boss_top_left</object>
-      <object>objects\obj_boss_top_right</object>
-      <object>objects\obj_boss_1</object>
     </objects>
     <object>objects\obj_title</object>
     <objects name="level_two">
@@ -162,10 +162,10 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_level_two</room>
-    <room>rooms\rm_level_one</room>
     <room>rooms\rm_title_screen</room>
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_level_one</room>
+    <room>rooms\rm_level_two</room>
     <room>rooms\rm_tutorial</room>
     <room>rooms\rm_vectory_</room>
   </rooms>
