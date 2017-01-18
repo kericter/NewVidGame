@@ -162,9 +162,9 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_level_one</room>
     <room>rooms\rm_title_screen</room>
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_level_one</room>
     <room>rooms\rm_level_two</room>
     <room>rooms\rm_tutorial</room>
     <room>rooms\rm_vectory_</room>
