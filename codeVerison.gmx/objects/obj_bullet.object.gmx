@@ -77,14 +77,32 @@ if (hit_6 != noone) {
     instance_destroy();
 }
 // Boss
-
 hit_7 = instance_place(x,y, obj_boss);
 if (hit_7 != noone) {
     hit_7.hp -= 1;
     instance_destroy();
     audio_play_sound(snd_hit,1,false);
 }
-
+if (instance_place(x,y,obj_turret_top_left)) {
+    obj_turret_top_left.hp -= 1;
+    instance_destroy();
+    audio_play_sound(snd_hit,1,false);
+}
+if (instance_place(x,y,obj_turret_top_right)) {
+    obj_turret_top_right.hp -= 1;
+    instance_destroy();
+    audio_play_sound(snd_hit,1,false);
+}
+if (instance_place(x,y,obj_turret_bottom_left)) {
+    obj_turret_bottom_left.hp -= 1;
+    instance_destroy();
+    audio_play_sound(snd_hit,1,false);
+}
+if (instance_place(x,y,obj_turret_bottom_right)) {
+    obj_turret_bottom_right.hp -= 1;
+    instance_destroy();
+    audio_play_sound(snd_hit,1,false);
+}
 </string>
           </argument>
         </arguments>

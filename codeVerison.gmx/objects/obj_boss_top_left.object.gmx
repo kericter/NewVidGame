@@ -26,9 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>rspeed = 3;
-minMaxAngle = 60;
+minMaxAngle = 110;
 spd = 1;
-image_angle = -45;
+image_angle = 90;
 
 los = 200;
 distance_to_player = 10000;
@@ -87,7 +87,7 @@ spd = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>base_angle = 0;
+            <string>base_angle = 110;
 delta = max(-minMaxAngle, min(minMaxAngle, angle_difference(ANG, base_angle)));
 image_angle = src_angleRotate(image_angle, base_angle + delta, rspeed);
 if (global.pause) exit;

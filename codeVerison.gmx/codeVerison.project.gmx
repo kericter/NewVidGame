@@ -102,10 +102,10 @@
     <object>objects\obj_settings</object>
     <object>objects\obj_enemy_red</object>
     <object>objects\obj_boss</object>
-    <object>objects\obj_boss_top_right</object>
-    <object>objects\obj_boss_top_left</object>
-    <object>objects\obj_boss_bottom_left</object>
-    <object>objects\obj_boss_bottom_right</object>
+    <object>objects\obj_turret_top_left</object>
+    <object>objects\obj_turret_top_right</object>
+    <object>objects\obj_turret_bottom_left</object>
+    <object>objects\obj_turret_bottom_right</object>
     <object>objects\obj_enemy_blue</object>
     <object>objects\obj_enemy_brown</object>
     <object>objects\obj_enemy_bug</object>
@@ -163,9 +163,9 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_level_two</room>
-    <room>rooms\rm_level_one</room>
     <room>rooms\rm_title_screen</room>
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_level_one</room>
     <room>rooms\rm_tutorial</room>
     <room>rooms\rm_vectory_</room>
   </rooms>
