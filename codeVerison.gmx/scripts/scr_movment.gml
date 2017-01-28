@@ -35,6 +35,8 @@ if (keyboard_check_pressed(vk_space)) {
     instance_create(x+15, y+10, obj_bullet);
     instance_create(x-15, y+10, obj_bullet);
     instance_create(x, y+13, obj_bullet);
+    instance_create(x+15, y-10, obj_bullet_2);
+    instance_create(x-15, y-10, obj_bullet_3);
     audio_play_sound(snd_shoot, 10, false);
 }
 

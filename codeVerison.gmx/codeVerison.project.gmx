@@ -38,6 +38,10 @@
         <sprite>sprites\spr_two_bottom</sprite>
         <sprite>sprites\spr_two_bottom_right</sprite>
         <sprite>sprites\spr_two_center</sprite>
+        <sprite>sprites\spr_blue_top_right</sprite>
+        <sprite>sprites\spr_blue_bottom_right</sprite>
+        <sprite>sprites\spr_blue_bottom_left</sprite>
+        <sprite>sprites\spr_blue_top_left</sprite>
       </sprites>
       <sprites name="transition_level_two">
         <sprite>sprites\spr_trans_center</sprite>
@@ -78,6 +82,7 @@
         <sprite>sprites\sprite24</sprite>
       </sprites>
     </sprites>
+    <sprite>sprites\sprite59</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -100,9 +105,12 @@
     <object>objects\obj_score</object>
     <object>objects\obj_player</object>
     <object>objects\obj_bullet</object>
+    <object>objects\obj_bullet_2</object>
+    <object>objects\obj_bullet_3</object>
     <object>objects\obj_settings</object>
     <object>objects\obj_enemy_red</object>
     <object>objects\obj_boss</object>
+    <object>objects\obj_yellow</object>
     <object>objects\obj_turret_top_left</object>
     <object>objects\obj_turret_top_right</object>
     <object>objects\obj_turret_bottom_left</object>
@@ -113,6 +121,11 @@
     <object>objects\obj_leaf</object>
     <object>objects\obj_enemy_bullet</object>
     <object>objects\obj_leaf_bullet</object>
+    <object>objects\obj_step_1</object>
+    <object>objects\obj_step_2</object>
+    <object>objects\obj_step_3</object>
+    <object>objects\obj_boss_2</object>
+    <object>objects\obj_brain</object>
     <object>objects\obj_box</object>
     <object>objects\obj_level_complete1</object>
     <object>objects\obj_place</object>
@@ -160,16 +173,22 @@
         <object>objects\obj_two_left</object>
         <object>objects\obj_two_top_right</object>
         <object>objects\obj_two_top</object>
+        <object>objects\obj_blue_rop_left</object>
+        <object>objects\obj_blue_bottom_right</object>
+        <object>objects\obj_blue_bottom_left</object>
+        <object>objects\obj_blue_top_right</object>
         <object>objects\obj_two_top_left</object>
       </objects>
     </objects>
+    <object>objects\obj_boss_3</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_level_three</room>
     <room>rooms\rm_level_two_</room>
+    <room>rooms\rm_tutorial</room>
     <room>rooms\rm_title_screen</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_level_one</room>
-    <room>rooms\rm_tutorial</room>
     <room>rooms\rm_vectory_</room>
   </rooms>
   <help>

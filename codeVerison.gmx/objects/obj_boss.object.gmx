@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>/// Hp
-hp = 50;
+hp = 40;
 state = scr_enemy;
 sped = 1;
 image_angle = 0;
@@ -54,8 +54,8 @@ global.stop = 0;
           <argument>
             <kind>1</kind>
             <string>if (hp &lt;= 0) {
-global.points = global.points + 1000000000;
-room_goto(rm_level_two);
+    global.points = global.points + 1000000000;
+    room_goto(rm_level_two_);
 }
 </string>
           </argument>

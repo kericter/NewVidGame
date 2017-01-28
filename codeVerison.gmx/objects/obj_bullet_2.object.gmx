@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>if (global.pause) exit;
-vspeed = -30;
+hspeed = -30;
+image_angle = 90;
 // Room clipping
 destroy = instance_place(x,y, obj_box);
 if (destroy) instance_destroy();
