@@ -19,7 +19,6 @@
     <sprite>sprites\spr_enemy_blue</sprite>
     <sprite>sprites\spr_enemy_bug</sprite>
     <sprite>sprites\spr_enemy_brown</sprite>
-    <sprite>sprites\spr_enemy_leaf</sprite>
     <sprite>sprites\sprite20</sprite>
     <sprite>sprites\sprite29</sprite>
     <sprite>sprites\spr_enginefire</sprite>
@@ -57,6 +56,8 @@
         <sprite>sprites\spr_boss_top_left</sprite>
         <sprite>sprites\spr_boss_bottom_right</sprite>
         <sprite>sprites\spr_boss_bottom_left</sprite>
+        <sprite>sprites\sprite55</sprite>
+        <sprite>sprites\spr_enemy_leaf</sprite>
       </sprites>
     </sprites>
     <sprites name="level_one">
@@ -109,7 +110,9 @@
     <object>objects\obj_enemy_blue</object>
     <object>objects\obj_enemy_brown</object>
     <object>objects\obj_enemy_bug</object>
+    <object>objects\obj_leaf</object>
     <object>objects\obj_enemy_bullet</object>
+    <object>objects\obj_leaf_bullet</object>
     <object>objects\obj_box</object>
     <object>objects\obj_level_complete1</object>
     <object>objects\obj_place</object>
@@ -162,7 +165,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_level_two</room>
+    <room>rooms\rm_level_two_</room>
     <room>rooms\rm_title_screen</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_level_one</room>

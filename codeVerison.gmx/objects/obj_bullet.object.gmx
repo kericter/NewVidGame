@@ -103,6 +103,13 @@ if (instance_place(x,y,obj_turret_bottom_right)) {
     instance_destroy();
     audio_play_sound(snd_hit,1,false);
 }
+hit_99 = instance_place(x,y, obj_leaf);
+if (hit_99 != noone) {
+    hit_99.hp -= 1;
+    global.points = global.points + 111;
+    audio_play_sound(snd_hit,1,false);
+    instance_destroy();
+}
 </string>
           </argument>
         </arguments>

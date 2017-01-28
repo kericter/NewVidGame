@@ -28,9 +28,9 @@
             <string>/// Hp
 hp = 50;
 state = scr_enemy;
-spd = 0;
+sped = 1;
 image_angle = 0;
-
+global.stop = 0;
 </string>
           </argument>
         </arguments>
@@ -53,7 +53,11 @@ image_angle = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>if (hp &lt;= 0) {
+global.points = global.points + 1000000000;
+room_goto(rm_level_two);
+}
+</string>
           </argument>
         </arguments>
       </action>
@@ -122,15 +126,13 @@ alarm[3] = room_speed/2
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>vspeed = spd;
+            <string>vspeed = sped;
 script_execute(state);
 if (instance_place(x,y, obj_place)) {
-    spd = 0;
+    global.stop = 1;
+    sped = 0;
 }
-if (hp = 0) {
-global.points = global.points + 1000000000;
-instance_create(x,y,obj_level_complete1);
-}
+
 </string>
           </argument>
         </arguments>

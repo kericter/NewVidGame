@@ -101,6 +101,7 @@ alarm[3] = room_speed/2
 if (global.pause) exit;
 script_execute(state);
 if (place_meeting(x,y,obj_player)) instance_destroy();
+
 </string>
           </argument>
         </arguments>

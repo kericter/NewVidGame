@@ -3,7 +3,7 @@
   <spriteName>spr_boss_bottom_left</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>100000</depth>
+  <depth>-100000</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>/// Veriables
-hp = 3;
+hp = 10;
 state = scr_enemy;
 
 los = 200;
@@ -41,7 +41,7 @@ ammo = 1000000000000;
 lenx = 14;
 leny = 0;
 cool_off = false;
-spd = 1;
+sped = 1;
 </string>
           </argument>
         </arguments>
@@ -135,9 +135,17 @@ alarm[3] = room_speed/2
           <argument>
             <kind>1</kind>
             <string>if (global.pause) exit;
+
+if (global.stop = 1) {
+    sped = 0;
+}
+else {
+    sped = 1;
+}
+
 /// execute
 script_execute(state);
-vspeed = 1;
+vspeed = sped;
 
 
 distance_to_player = distance_to_object(obj_player);
@@ -185,7 +193,7 @@ if ((can_shoot == true) &amp;&amp; (ammo &gt; 0) &amp;&amp; (cool_off = false)) 
     bullet_id.image_angle = bullet_id.direction;
     bullet_id.speed = 5;
     cool_off = true;
-    alarm[11] = room_speed * 2;
+    alarm[11] = room_speed;
     audio_play_sound(snd_turret, 1, false);
 }
 
