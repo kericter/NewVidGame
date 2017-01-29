@@ -9,6 +9,7 @@
     <sound>sound\snd_explosion</sound>
     <sound>sound\snd_turret</sound>
     <sound>sound\snd_hit</sound>
+    <sound>sound\snd_enemyshoot</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
@@ -28,27 +29,15 @@
     <sprite>sprites\obj_box_2</sprite>
     <sprite>sprites\spr_title</sprite>
     <sprites name="level_two">
-      <sprites name="tileset">
-        <sprite>sprites\spr_two_top_left</sprite>
-        <sprite>sprites\spr_two_top</sprite>
-        <sprite>sprites\spri_two_top_right</sprite>
-        <sprite>sprites\spr_two_left</sprite>
-        <sprite>sprites\spr_two_right</sprite>
-        <sprite>sprites\spr_two_bottom_left</sprite>
-        <sprite>sprites\spr_two_bottom</sprite>
-        <sprite>sprites\spr_two_bottom_right</sprite>
-        <sprite>sprites\spr_two_center</sprite>
-      </sprites>
-      <sprites name="transition_level_two">
-        <sprite>sprites\spr_trans_center</sprite>
-        <sprite>sprites\spr_trans_top</sprite>
-        <sprite>sprites\spr_trans_top_right</sprite>
-        <sprite>sprites\spr_trans_right</sprite>
-        <sprite>sprites\spr_trans_left</sprite>
-        <sprite>sprites\spr_trans_bottom_left</sprite>
-        <sprite>sprites\spr_trans_bottom</sprite>
-        <sprite>sprites\spr_trans_bottom_right</sprite>
-        <sprite>sprites\spr_trans_top_left</sprite>
+      <sprites name="transition">
+        <sprite>sprites\spr_tran_topleft</sprite>
+        <sprite>sprites\spr_tran_topcenter</sprite>
+        <sprite>sprites\spr_tran_topright</sprite>
+        <sprite>sprites\spr_tran_centerleft</sprite>
+        <sprite>sprites\spr_tran_centerright</sprite>
+        <sprite>sprites\spr_tran_botleft</sprite>
+        <sprite>sprites\spr_tran_botcenter</sprite>
+        <sprite>sprites\spr_tran_botright</sprite>
       </sprites>
       <sprites name="Sprites">
         <sprite>sprites\spr_boss_1</sprite>
@@ -59,23 +48,60 @@
         <sprite>sprites\sprite55</sprite>
         <sprite>sprites\spr_enemy_leaf</sprite>
       </sprites>
+      <sprites name="tileset3">
+        <sprite>sprites\spr_tileset3_center</sprite>
+        <sprite>sprites\spr_tileset3_topleft</sprite>
+        <sprite>sprites\spr_tileset3_topcenter</sprite>
+        <sprite>sprites\spr_tileset3_topright</sprite>
+        <sprite>sprites\spr_tileset3_centerleft</sprite>
+        <sprite>sprites\spr_tileset3_centerright</sprite>
+        <sprite>sprites\spr_tileset3_botleft</sprite>
+        <sprite>sprites\spr_tileset3_botcenter</sprite>
+        <sprite>sprites\spr_tileset3_botright</sprite>
+        <sprite>sprites\spr_tileset3_corner_topright</sprite>
+        <sprite>sprites\spr_tileset3_corner_topleft</sprite>
+        <sprite>sprites\spr_tileset3_corner_botright</sprite>
+        <sprite>sprites\spr_tileset3_corner_botleft</sprite>
+      </sprites>
     </sprites>
     <sprites name="level_one">
-      <sprites name="tilesets">
-        <sprite>sprites\spr_tileset_righttop</sprite>
-        <sprite>sprites\spr_tileset_topcenter</sprite>
-        <sprite>sprites\spr_tileset_rightcorner</sprite>
-        <sprite>sprites\spr_tileset_leftcenter</sprite>
-        <sprite>sprites\spr_tileset_bottomleft</sprite>
-        <sprite>sprites\spr_tileset_bottomcenter</sprite>
-        <sprite>sprites\spr_tileset_bottomright</sprite>
-        <sprite>sprites\spr_tileset_rightcenter</sprite>
+      <sprites name="tileset1">
         <sprite>sprites\spr_tileset_center</sprite>
+        <sprite>sprites\spr_tileset_topleft</sprite>
+        <sprite>sprites\spr_tileset_topcenter</sprite>
+        <sprite>sprites\spr_tileset_topright</sprite>
+        <sprite>sprites\spr_tileset_centerleft</sprite>
+        <sprite>sprites\spr_tileset_centerright</sprite>
+        <sprite>sprites\spr_tileset_botleft</sprite>
+        <sprite>sprites\spr_tileset_botcenter</sprite>
+        <sprite>sprites\spr_tileset_botright</sprite>
         <sprite>sprites\spr_top_left</sprite>
         <sprite>sprites\spr_top_right</sprite>
         <sprite>sprites\spr_bottom_left</sprite>
         <sprite>sprites\spr_bottom_right</sprite>
         <sprite>sprites\sprite24</sprite>
+      </sprites>
+      <sprites name="transition">
+        <sprite>sprites\spr_trans_center</sprite>
+        <sprite>sprites\spr_trans_top</sprite>
+        <sprite>sprites\spr_trans_top_right</sprite>
+        <sprite>sprites\spr_trans_right</sprite>
+        <sprite>sprites\spr_trans_left</sprite>
+        <sprite>sprites\spr_trans_bottom_left</sprite>
+        <sprite>sprites\spr_trans_bottom</sprite>
+        <sprite>sprites\spr_trans_bottom_right</sprite>
+        <sprite>sprites\spr_trans_top_left</sprite>
+      </sprites>
+      <sprites name="tileset2">
+        <sprite>sprites\spr_two_top_left</sprite>
+        <sprite>sprites\spr_two_top</sprite>
+        <sprite>sprites\spri_two_top_right</sprite>
+        <sprite>sprites\spr_two_left</sprite>
+        <sprite>sprites\spr_two_right</sprite>
+        <sprite>sprites\spr_two_bottom_left</sprite>
+        <sprite>sprites\spr_two_bottom</sprite>
+        <sprite>sprites\spr_two_bottom_right</sprite>
+        <sprite>sprites\spr_two_center</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -165,10 +191,10 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_level_two_</room>
+    <room>rooms\rm_level_one</room>
+    <room>rooms\rm_level_two</room>
     <room>rooms\rm_title_screen</room>
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_level_one</room>
     <room>rooms\rm_tutorial</room>
     <room>rooms\rm_vectory_</room>
   </rooms>
