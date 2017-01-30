@@ -91,6 +91,10 @@
         <sprite>sprites\spr_trans_bottom</sprite>
         <sprite>sprites\spr_trans_bottom_right</sprite>
         <sprite>sprites\spr_trans_top_left</sprite>
+        <sprite>sprites\spr_trans_crnr_topleft</sprite>
+        <sprite>sprites\spr_trans_crnr_topright</sprite>
+        <sprite>sprites\spr_trans_crnr_botleft</sprite>
+        <sprite>sprites\spr_trans_crnr_botright</sprite>
       </sprites>
       <sprites name="tileset2">
         <sprite>sprites\spr_two_top_left</sprite>
@@ -102,6 +106,10 @@
         <sprite>sprites\spr_two_bottom</sprite>
         <sprite>sprites\spr_two_bottom_right</sprite>
         <sprite>sprites\spr_two_center</sprite>
+        <sprite>sprites\spr_two_crnrtopleft</sprite>
+        <sprite>sprites\spr_two_crnrtopright</sprite>
+        <sprite>sprites\spr_two_crnrbotleft</sprite>
+        <sprite>sprites\spr_two_crnrbotright</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -165,36 +173,42 @@
       <object>objects\obj_turret</object>
     </objects>
     <object>objects\obj_title</object>
-    <objects name="level_two">
-      <objects name="transistion_tilesets">
-        <object>objects\obj_trans_top</object>
-        <object>objects\obj_trans_center</object>
-        <object>objects\obj_trans_top_right</object>
-        <object>objects\obj_trans_left</object>
-        <object>objects\obj_trans_bottom_left</object>
-        <object>objects\obj_trans_bottom</object>
-        <object>objects\obj_trans_bottom_right</object>
-        <object>objects\obj_trans_top_left</object>
-        <object>objects\obj_trans_right</object>
-      </objects>
-      <objects name="two_tilesets">
-        <object>objects\obj_two_center</object>
-        <object>objects\obj_two_bottom_right</object>
-        <object>objects\obj_two_bottom</object>
-        <object>objects\obj_two_bottom_left</object>
-        <object>objects\obj_two_right</object>
-        <object>objects\obj_two_left</object>
-        <object>objects\obj_two_top_right</object>
-        <object>objects\obj_two_top</object>
-        <object>objects\obj_two_top_left</object>
-      </objects>
+    <objects name="transistion_1">
+      <object>objects\obj_trans_top</object>
+      <object>objects\obj_trans_center</object>
+      <object>objects\obj_trans_top_right</object>
+      <object>objects\obj_trans_left</object>
+      <object>objects\obj_trans_bottom_left</object>
+      <object>objects\obj_trans_bottom</object>
+      <object>objects\obj_trans_bottom_right</object>
+      <object>objects\obj_trans_top_left</object>
+      <object>objects\obj_trans_right</object>
+      <object>objects\obj_trans_crnr_topleft</object>
+      <object>objects\obj_trans_crnr_topright</object>
+      <object>objects\obj_trans_crnr_botleft</object>
+      <object>objects\obj_trans_crnr_botright</object>
+    </objects>
+    <objects name="tileset_2">
+      <object>objects\obj_two_center</object>
+      <object>objects\obj_two_bottom_right</object>
+      <object>objects\obj_two_bottom</object>
+      <object>objects\obj_two_bottom_left</object>
+      <object>objects\obj_two_right</object>
+      <object>objects\obj_two_left</object>
+      <object>objects\obj_two_top_right</object>
+      <object>objects\obj_two_top</object>
+      <object>objects\obj_two_top_left</object>
+      <object>objects\obj_2_crnrtopleft</object>
+      <object>objects\obj_2_crnrtopright</object>
+      <object>objects\obj_2_crnrbotleft</object>
+      <object>objects\obj_2_crnrbotright</object>
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_level_one</room>
-    <room>rooms\rm_level_two</room>
     <room>rooms\rm_title_screen</room>
     <room>rooms\rm_menu</room>
+    <room>rooms\rm_level_one</room>
+    <room>rooms\rm_level_two</room>
     <room>rooms\rm_tutorial</room>
     <room>rooms\rm_vectory_</room>
   </rooms>
