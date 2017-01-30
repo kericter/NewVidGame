@@ -25,7 +25,155 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>hp = 200;
+vspeed = 1;
+goodtogo = 0;
+ham = 3;
+ham2 = 30;
+ham3 = 60;
+ham4 = 10;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>hspeed = ham;
+vspeed = 0;
+alarm[1] = ham3;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="3">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>hspeed = 0;
+vspeed = -ham;
+alarm[4] = ham2;
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>hspeed = -ham;
+vspeed = 0;
+alarm[3] = ham3;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>hspeed = 0;
+vspeed = ham;
+alarm[2] = ham2;
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>bullet1 = instance_create(x,y,obj_bul_1);
+bullet2 = instance_create(x,y,obj_bul_1);
+bullet3 = instance_create(x,y,obj_bul_1);
+bullet4 = instance_create(x,y,obj_bul_1);
+bullet5 = instance_create(x,y,obj_bul_1);
+bullet6 = instance_create(x,y,obj_bul_1);
+bullet7 = instance_create(x,y,obj_bul_1);
+bullet8 = instance_create(x,y,obj_bul_1);
+
+bullet1.direction = 0;
+bullet2.direction = 45;
+bullet3.direction = 90;
+bullet4.direction = 135;
+bullet5.direction = 180;
+bullet6.direction = 225;
+bullet7.direction = 270;
+bullet8.direction = 315;
+</string>
           </argument>
         </arguments>
       </action>
@@ -47,7 +195,29 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>if (goodtogo == 1) {
+if (alarm[0] = -1) alarm[0] = ham4;
+}
+if (hp == 100 || hp == 101 || hp = 99) {
+    ham = 6;
+    ham2 = 15;
+    ham3 = 30;
+    ham4 = 5;
+}
+if (hp &lt;= 0) {
+    room_goto(rm_vectory_);
+    global.points += 10000;
+    instance_destroy();
+}
+if (instance_place(x,y,obj_box)) goodtogo = 1;
+
+if (instance_place(x,y,obj_step_1)) {
+    vspeed = 0;
+    hspeed = ham;
+    instance_create(x,y+20,obj_place);
+    alarm[1] = ham2;
+}
+</string>
           </argument>
         </arguments>
       </action>

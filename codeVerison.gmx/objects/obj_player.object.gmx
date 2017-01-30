@@ -29,7 +29,7 @@
 vx = 0;
 vy = 0;
 player_speed = 5;
-hp = 1000000000;
+hp = 100;
 image_index = 2;
 image_speed = 0;
 state = scr_movment;

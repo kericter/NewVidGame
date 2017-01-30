@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>if (global.pause) exit;
 hspeed = 30;
-image_angle = 270;
+image_angle = direction;
 // Room clipping
 destroy = instance_place(x,y, obj_box);
 if (destroy) instance_destroy();
@@ -116,6 +116,11 @@ if (instance_place(x,y,obj_yellow)) {
 }
 if (instance_place(x,y,obj_brain)) {
     obj_brain.hp -=1;
+    instance_destroy();
+    audio_play_sound(snd_hit,1,false);
+}
+if (instance_place(x,y,obj_boss_3)) {
+    obj_boss_3.hp -= 1;
     instance_destroy();
     audio_play_sound(snd_hit,1,false);
 }

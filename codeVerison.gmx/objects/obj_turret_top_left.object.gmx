@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>/// Veriables
-hp = 10;
+hp = 3;
 state = scr_enemy;
 
 los = 200;
@@ -42,6 +42,7 @@ lenx = 14;
 leny = 0;
 cool_off = false;
 sped = 1;
+global.dead = 0;
 </string>
           </argument>
         </arguments>
@@ -142,7 +143,7 @@ if (global.stop = 1) {
 else {
     sped = 1;
 }
-
+if (global.dead = 1) instance_destroy();
 /// execute
 vspeed = sped;
 

@@ -29,14 +29,14 @@ if (right) {
     alarm[0] = room_speed * 2;
     image_index = 3;
 }
-
 // Shooting
 if (keyboard_check_pressed(vk_space)) {
-    instance_create(x+15, y+10, obj_bullet);
-    instance_create(x-15, y+10, obj_bullet);
-    instance_create(x, y+13, obj_bullet);
-    instance_create(x+15, y-10, obj_bullet_2);
-    instance_create(x-15, y-10, obj_bullet_3);
+    bullet_1 = instance_create(x+15, y+10, obj_bullet);
+    bullet_2 = instance_create(x-15, y+10, obj_bullet);
+    bullet_3 = instance_create(x, y+13, obj_bullet);
+    bullet_1.direction = 85;
+    bullet_2.direction = 95;
+    bullet_3.direction = 90;
     audio_play_sound(snd_shoot, 10, false);
 }
 

@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>if (global.pause) exit;
-vspeed = -30;
+speed = 30;
+image_angle = direction;
 // Room clipping
 destroy = instance_place(x,y, obj_box);
 if (destroy) instance_destroy();
@@ -109,14 +110,25 @@ if (instance_place(x,y,obj_boss_2)) {
     audio_play_sound(snd_hit,1,false);
 }
 if (instance_place(x,y,obj_yellow)) {
-    obj_yellow.hp -=1;
+    obj_yellow.hp -= 1;
     instance_destroy();
     audio_play_sound(snd_hit,1,false);
 }
 if (instance_place(x,y,obj_brain)) {
-    obj_brain.hp -=1;
+    obj_brain.hp -= 1;
     instance_destroy();
     audio_play_sound(snd_hit,1,false);
+}
+if (instance_place(x,y,obj_boss_3)) {
+    obj_boss_3.hp -= 1;
+    instance_destroy();
+    audio_play_sound(snd_hit,1,false);
+}
+hit_88 = instance_place(x,y, obj_bul_1);
+if (hit_88 != noone) {
+    hit_88.hp -= 1;
+    audio_play_sound(snd_hit,1,false);
+    instance_destroy();
 }
 </string>
           </argument>
