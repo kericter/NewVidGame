@@ -28,6 +28,7 @@
             <string>/// Hp
 hp = 1;
 state = scr_enemy;
+audio_play_sound(snd_enemyshoot, 10, false);
 </string>
           </argument>
         </arguments>

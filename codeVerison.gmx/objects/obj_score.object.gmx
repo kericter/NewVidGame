@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>global.points = 0
-
 </string>
           </argument>
         </arguments>
@@ -49,8 +48,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_set_color(c_white);
-draw_text(64,32,global.points); 
+            <string>draw_set_font(fnt_options);
+draw_set_color(c_white);
+draw_text(16,16,global.points); 
 </string>
           </argument>
         </arguments>
