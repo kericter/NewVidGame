@@ -9,6 +9,7 @@
     <sound>sound\snd_explosion</sound>
     <sound>sound\snd_turret</sound>
     <sound>sound\snd_hit</sound>
+    <sound>sound\snd_enemyshoot</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
@@ -66,14 +67,7 @@
     </sprites>
     <sprites name="level_one">
       <sprites name="tilesets">
-        <sprite>sprites\spr_tileset_righttop</sprite>
         <sprite>sprites\spr_tileset_topcenter</sprite>
-        <sprite>sprites\spr_tileset_rightcorner</sprite>
-        <sprite>sprites\spr_tileset_leftcenter</sprite>
-        <sprite>sprites\spr_tileset_bottomleft</sprite>
-        <sprite>sprites\spr_tileset_bottomcenter</sprite>
-        <sprite>sprites\spr_tileset_bottomright</sprite>
-        <sprite>sprites\spr_tileset_rightcenter</sprite>
         <sprite>sprites\spr_tileset_center</sprite>
         <sprite>sprites\spr_top_left</sprite>
         <sprite>sprites\spr_top_right</sprite>
@@ -184,11 +178,11 @@
     <object>objects\obj_bul_1</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_level_two_</room>
+    <room>rooms\rm_level_three</room>
     <room>rooms\rm_title_screen</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_level_one</room>
-    <room>rooms\rm_level_two_</room>
-    <room>rooms\rm_level_three</room>
     <room>rooms\rm_tutorial</room>
     <room>rooms\rm_vectory_</room>
   </rooms>

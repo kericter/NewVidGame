@@ -113,7 +113,6 @@
     <instance objName="obj_turret_top_right" x="267" y="-350" name="inst_ECF80E7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_turret_bottom_right" x="278" y="-323" name="inst_CCE1B6AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_turret_bottom_left" x="211" y="-324" name="inst_A1BCE50E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="240" y="208" name="inst_A89311F6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="240" y="208" name="inst_5ADC44E7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_place" x="160" y="96" name="inst_7026FA9E" locked="0" code="" scaleX="4" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_pause" x="0" y="0" name="inst_7CEDAA74" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
