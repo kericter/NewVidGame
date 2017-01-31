@@ -88,6 +88,7 @@
       </sprites>
     </sprites>
     <sprite>sprites\sprite59</sprite>
+    <sprite>sprites\TSA_logo</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -189,6 +190,7 @@
     <object>objects\obj_title</object>
     <object>objects\obj_boss_3</object>
     <object>objects\obj_bul_1</object>
+    <object>objects\obj_TSA</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_title_screen</room>
