@@ -87,17 +87,6 @@
     <instance objName="obj_enemy_brown" x="384" y="-224" name="inst_2DF83A20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_brown" x="432" y="-224" name="inst_7D4F836C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_brown" x="480" y="-224" name="inst_976F7CF4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_blue_1" x="0" y="-256" name="inst_D0D0A73F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_blue_1" x="48" y="-256" name="inst_73C117B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_blue_1" x="96" y="-256" name="inst_979F0D37" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_blue_1" x="144" y="-256" name="inst_E0AF2C41" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_blue_1" x="192" y="-256" name="inst_9A7BCB72" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_blue_1" x="240" y="-256" name="inst_F94F2802" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_blue_1" x="288" y="-256" name="inst_3D234E4F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_blue_1" x="336" y="-256" name="inst_FAAEF457" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_blue_1" x="384" y="-256" name="inst_099E70DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_blue_1" x="432" y="-256" name="inst_1DA26411" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_blue_1" x="480" y="-256" name="inst_DD0D3999" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_turret_top_left" x="223" y="-349" name="inst_D11C17AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_turret_top_right" x="267" y="-350" name="inst_ECF80E7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_turret_bottom_right" x="278" y="-323" name="inst_CCE1B6AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

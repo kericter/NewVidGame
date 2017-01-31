@@ -13,10 +13,12 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
+    <sprite>sprites\TSA_logo</sprite>
     <sprite>sprites\spr_explosion</sprite>
     <sprite>sprites\spr_bullet</sprite>
     <sprite>sprites\spr_enemy_red</sprite>
     <sprite>sprites\spr_boss</sprite>
+    <sprite>sprites\spr_boss3</sprite>
     <sprite>sprites\spr_enemy_blue</sprite>
     <sprite>sprites\spr_enemy_bug</sprite>
     <sprite>sprites\spr_enemy_brown</sprite>
@@ -25,28 +27,31 @@
     <sprite>sprites\spr_enginefire</sprite>
     <sprite>sprites\spr_option_arrow</sprite>
     <sprite>sprites\spr_turret_1</sprite>
+    <sprite>sprites\spr_turret_2</sprite>
     <sprite>sprites\spr_enemy_bullet</sprite>
     <sprite>sprites\obj_box_2</sprite>
     <sprite>sprites\spr_title</sprite>
-    <sprites name="Level 3">
-      <sprites name="tileset">
-        <sprite>sprites\spr_bbot_left</sprite>
-        <sprite>sprites\spr_bbot_right</sprite>
-        <sprite>sprites\spr_btop_right</sprite>
-        <sprite>sprites\spr_btop_left</sprite>
-        <sprite>sprites\spr_btileset_botright</sprite>
-        <sprite>sprites\spr_btileset_botleft</sprite>
-        <sprite>sprites\spr_btileset_botcenter</sprite>
-        <sprite>sprites\spr_btileset_centerright</sprite>
-        <sprite>sprites\spr_btileset_centerleft</sprite>
-        <sprite>sprites\spr_btileset_center</sprite>
-        <sprite>sprites\spr_btileset_topright</sprite>
-        <sprite>sprites\spr_btileset__topleft</sprite>
-        <sprite>sprites\spr_btileset_topcenter</sprite>
+    <sprites name="level_one">
+      <sprites name="tilesets">
+        <sprite>sprites\spr_tileset_topcenter</sprite>
+        <sprite>sprites\spr_tileset1_topleft</sprite>
+        <sprite>sprites\spr_tileset1_topright</sprite>
+        <sprite>sprites\spr_tileset_center</sprite>
+        <sprite>sprites\spr_tileset1_centerleft</sprite>
+        <sprite>sprites\spr_tileset1_centerright</sprite>
+        <sprite>sprites\spr_tileset1_botcenter</sprite>
+        <sprite>sprites\spr_tileset1_botleft</sprite>
+        <sprite>sprites\spr_tileset1_botright</sprite>
+        <sprite>sprites\spr_top_left</sprite>
+        <sprite>sprites\spr_top_right</sprite>
+        <sprite>sprites\spr_bottom_left</sprite>
+        <sprite>sprites\spr_bottom_right</sprite>
+        <sprite>sprites\sprite24</sprite>
       </sprites>
     </sprites>
     <sprites name="level_two">
       <sprites name="tileset">
+        <sprite>sprites\spr_two_center</sprite>
         <sprite>sprites\spr_two_top_left</sprite>
         <sprite>sprites\spr_two_top</sprite>
         <sprite>sprites\spri_two_top_right</sprite>
@@ -55,11 +60,11 @@
         <sprite>sprites\spr_two_bottom_left</sprite>
         <sprite>sprites\spr_two_bottom</sprite>
         <sprite>sprites\spr_two_bottom_right</sprite>
-        <sprite>sprites\spr_two_center</sprite>
         <sprite>sprites\spr_blue_top_right</sprite>
         <sprite>sprites\spr_blue_bottom_right</sprite>
         <sprite>sprites\spr_blue_bottom_left</sprite>
         <sprite>sprites\spr_blue_top_left</sprite>
+        <sprite>sprites\spr_two_turret</sprite>
       </sprites>
       <sprites name="transition_level_two">
         <sprite>sprites\spr_trans_center</sprite>
@@ -86,26 +91,37 @@
         <sprite>sprites\spr_enemy_leaf</sprite>
       </sprites>
     </sprites>
-    <sprites name="level_one">
-      <sprites name="tilesets">
-        <sprite>sprites\spr_tileset_topcenter</sprite>
-        <sprite>sprites\spr_tileset1_topleft</sprite>
-        <sprite>sprites\spr_tileset1_topright</sprite>
-        <sprite>sprites\spr_tileset_center</sprite>
-        <sprite>sprites\spr_tileset1_centerleft</sprite>
-        <sprite>sprites\spr_tileset1_centerright</sprite>
-        <sprite>sprites\spr_tileset1_botcenter</sprite>
-        <sprite>sprites\spr_tileset1_botleft</sprite>
-        <sprite>sprites\spr_tileset1_botright</sprite>
-        <sprite>sprites\spr_top_left</sprite>
-        <sprite>sprites\spr_top_right</sprite>
-        <sprite>sprites\spr_bottom_left</sprite>
-        <sprite>sprites\spr_bottom_right</sprite>
-        <sprite>sprites\sprite24</sprite>
+    <sprites name="level_three">
+      <sprites name="tileset">
+        <sprite>sprites\spr_bbot_left</sprite>
+        <sprite>sprites\spr_bbot_right</sprite>
+        <sprite>sprites\spr_btop_right</sprite>
+        <sprite>sprites\spr_btop_left</sprite>
+        <sprite>sprites\spr_btileset_botright</sprite>
+        <sprite>sprites\spr_btileset_botleft</sprite>
+        <sprite>sprites\spr_btileset_botcenter</sprite>
+        <sprite>sprites\spr_btileset_centerright</sprite>
+        <sprite>sprites\spr_btileset_centerleft</sprite>
+        <sprite>sprites\spr_btileset_center</sprite>
+        <sprite>sprites\spr_btileset_topright</sprite>
+        <sprite>sprites\spr_btileset__topleft</sprite>
+        <sprite>sprites\spr_btileset_topcenter</sprite>
+      </sprites>
+      <sprites name="transition2">
+        <sprite>sprites\spr_trans2_topleft</sprite>
+        <sprite>sprites\spr_trans2_top</sprite>
+        <sprite>sprites\spr_trans2_topright</sprite>
+        <sprite>sprites\spr_trans2_cntrleft</sprite>
+        <sprite>sprites\spr_trans2_cntrright</sprite>
+        <sprite>sprites\spr_trans2_botleft</sprite>
+        <sprite>sprites\spr_trans2_bot</sprite>
+        <sprite>sprites\spr_trans2_botright</sprite>
+        <sprite>sprites\spr_trans2_crnr_topleft</sprite>
+        <sprite>sprites\spr_trans2_crnr_topright</sprite>
+        <sprite>sprites\spr_trans2_crnr_botleft</sprite>
+        <sprite>sprites\spr_trans2_crnr_botright</sprite>
       </sprites>
     </sprites>
-    <sprite>sprites\sprite59</sprite>
-    <sprite>sprites\TSA_logo</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -139,7 +155,6 @@
       <object>objects\obj_bottomleft</object>
       <object>objects\obj_bottm_right</object>
       <object>objects\obj_turret_holder</object>
-      <object>objects\obj_turret</object>
     </objects>
     <objects name="tileset_2">
       <object>objects\obj_two_center</object>
@@ -155,21 +170,7 @@
       <object>objects\obj_blue_bottom_left</object>
       <object>objects\obj_blue_top_right</object>
       <object>objects\obj_two_top_left</object>
-    </objects>
-    <objects name="transistion_tilesets">
-      <object>objects\obj_trans_top</object>
-      <object>objects\obj_trans_center</object>
-      <object>objects\obj_trans_top_right</object>
-      <object>objects\obj_trans_left</object>
-      <object>objects\obj_trans_bottom_left</object>
-      <object>objects\obj_trans_bottom</object>
-      <object>objects\obj_trans_bottom_right</object>
-      <object>objects\obj_trans_top_left</object>
-      <object>objects\obj_trans_right</object>
-      <object>objects\obj_trans_crnr_topleft</object>
-      <object>objects\obj_trans_crnr_topright</object>
-      <object>objects\obj_trans_crnr_botleft</object>
-      <object>objects\obj_trans_crnr_botright</object>
+      <object>objects\obj_two_turretbase</object>
     </objects>
     <objects name="tileset_3">
       <object>objects\obj_bbot_left</object>
@@ -186,6 +187,37 @@
       <object>objects\obj_btileset_topleft</object>
       <object>objects\obj_btileset_topcenter</object>
     </objects>
+    <objects name="transistion_1">
+      <object>objects\obj_trans_top</object>
+      <object>objects\obj_trans_center</object>
+      <object>objects\obj_trans_top_right</object>
+      <object>objects\obj_trans_left</object>
+      <object>objects\obj_trans_bottom_left</object>
+      <object>objects\obj_trans_bottom</object>
+      <object>objects\obj_trans_bottom_right</object>
+      <object>objects\obj_trans_top_left</object>
+      <object>objects\obj_trans_right</object>
+      <object>objects\obj_trans_crnr_topleft</object>
+      <object>objects\obj_trans_crnr_topright</object>
+      <object>objects\obj_trans_crnr_botleft</object>
+      <object>objects\obj_trans_crnr_botright</object>
+    </objects>
+    <objects name="transition_2">
+      <object>objects\obj_trans2_topleft</object>
+      <object>objects\obj_trans2_top</object>
+      <object>objects\obj_trans2_topright</object>
+      <object>objects\obj_trans2_cntrleft</object>
+      <object>objects\obj_trans2_cntrright</object>
+      <object>objects\obj_trans2_botleft</object>
+      <object>objects\obj_trans2_bot</object>
+      <object>objects\obj_trans2_botright</object>
+      <object>objects\obj_trans2_crnr_topleft</object>
+      <object>objects\obj_trans2_crnr_topright</object>
+      <object>objects\obj_trans2_crnr_botleft</object>
+      <object>objects\obj_trans2_crnr_botright</object>
+    </objects>
+    <object>objects\obj_turret</object>
+    <object>objects\obj_turret_2</object>
     <object>objects\obj_menu</object>
     <object>objects\obj_score</object>
     <object>objects\obj_player</object>
@@ -193,15 +225,15 @@
     <object>objects\obj_bullet_2</object>
     <object>objects\obj_bullet_3</object>
     <object>objects\obj_settings</object>
-    <object>objects\obj_enemy_red_1</object>
     <object>objects\obj_boss</object>
     <object>objects\obj_yellow</object>
     <object>objects\obj_turret_top_left</object>
     <object>objects\obj_turret_top_right</object>
     <object>objects\obj_turret_bottom_left</object>
     <object>objects\obj_turret_bottom_right</object>
-    <object>objects\obj_enemy_blue_1</object>
     <object>objects\obj_enemy_brown</object>
+    <object>objects\obj_enemy_red_1</object>
+    <object>objects\obj_enemy_blue_1</object>
     <object>objects\obj_enemy_bug</object>
     <object>objects\obj_leaf</object>
     <object>objects\obj_enemy_bullet</object>
@@ -225,10 +257,10 @@
     <object>objects\obj_TSA</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_level_three</room>
+    <room>rooms\rm_level_one</room>
     <room>rooms\rm_title_screen</room>
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_level_one</room>
+    <room>rooms\rm_level_three</room>
     <room>rooms\rm_level_two_</room>
     <room>rooms\rm_tutorial</room>
     <room>rooms\rm_vectory_</room>
