@@ -32,14 +32,14 @@ image_angle = direction;
 destroy = instance_place(x,y, obj_box);
 if (destroy) instance_destroy();
 // Red enemy
-hit_1 = instance_place(x,y, obj_enemy_red);
+hit_1 = instance_place(x,y, obj_enemy_red_1);
 if (hit_1 != noone) {
     hit_1.hp -= 1;
     audio_play_sound(snd_hit,1,false);
     instance_destroy();
 }
 // Blue enemy
-hit_2 = instance_place(x,y, obj_enemy_blue);
+hit_2 = instance_place(x,y, obj_enemy_blue_1);
 if (hit_2 != noone) {
     hit_2.hp -= 1;
     audio_play_sound(snd_hit,1,false);

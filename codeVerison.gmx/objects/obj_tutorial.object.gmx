@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>intro = "Hold 'space' to shoot";
+            <string>intro = "Tap 'space' to  shoot";
 alarm[0] = room_speed * 5;
 </string>
           </argument>
@@ -72,7 +72,7 @@ alarm[0] = room_speed * 5;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>intro = "Now you are ready to take on the horde!";
+            <string>intro = "Now you are ready fight!";
 alarm[2] = room_speed * 3;
 </string>
           </argument>

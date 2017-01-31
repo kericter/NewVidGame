@@ -160,14 +160,14 @@
     <object>objects\obj_bullet_2</object>
     <object>objects\obj_bullet_3</object>
     <object>objects\obj_settings</object>
-    <object>objects\obj_enemy_red</object>
+    <object>objects\obj_enemy_red_1</object>
     <object>objects\obj_boss</object>
     <object>objects\obj_yellow</object>
     <object>objects\obj_turret_top_left</object>
     <object>objects\obj_turret_top_right</object>
     <object>objects\obj_turret_bottom_left</object>
     <object>objects\obj_turret_bottom_right</object>
-    <object>objects\obj_enemy_blue</object>
+    <object>objects\obj_enemy_blue_1</object>
     <object>objects\obj_enemy_brown</object>
     <object>objects\obj_enemy_bug</object>
     <object>objects\obj_leaf</object>

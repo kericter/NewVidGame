@@ -31,6 +31,7 @@ state = scr_enemy;
 sped = 1;
 image_angle = 0;
 global.stop = 0;
+global.yellowdead = 0;
 </string>
           </argument>
         </arguments>
@@ -55,6 +56,7 @@ global.stop = 0;
             <kind>1</kind>
             <string>if (hp &lt;= 0) {
     global.points = global.points + 1000;
+    global.yellowdead = 1;
 }
 </string>
           </argument>
@@ -119,7 +121,7 @@ alarm[3] = room_speed/2
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>obj_yellow</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>

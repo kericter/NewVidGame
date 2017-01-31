@@ -32,6 +32,7 @@ sped = 1;
 image_angle = 0;
 global.stop = 0;
 global.dead = 0;
+global.yellowdead = 0;
 </string>
           </argument>
         </arguments>

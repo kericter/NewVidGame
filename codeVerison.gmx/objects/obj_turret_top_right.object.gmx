@@ -196,7 +196,9 @@ if ((can_shoot == true) &amp;&amp; (ammo &gt; 0) &amp;&amp; (cool_off = false)) 
     alarm[11] = room_speed/2;
     audio_play_sound(snd_turret, 1, false);
 }
-
+if (global.yellowdead = 1) {
+    instance_destroy();
+}
 
 </string>
           </argument>

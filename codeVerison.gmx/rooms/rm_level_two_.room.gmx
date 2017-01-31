@@ -633,9 +633,6 @@
     <instance objName="obj_two_top" x="0" y="-2080" name="inst_ADB70D19" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_two_top" x="32" y="-2080" name="inst_4868E775" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_two_top" x="64" y="-2080" name="inst_C7D4952A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_blue" x="64" y="-64" name="inst_037542A0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_blue" x="432" y="-128" name="inst_8EAFEEBA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_blue" x="256" y="-208" name="inst_F9C4CB01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_leaf" x="400" y="-624" name="inst_AF5B025E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_leaf" x="192" y="-624" name="inst_60713F85" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_leaf" x="272" y="-688" name="inst_CDB7E2F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -922,6 +919,9 @@
     <instance objName="obj_step_1" x="192" y="80" name="inst_E20EDE47" locked="0" code="" scaleX="2.5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_step_2" x="432" y="64" name="inst_59778DA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_step_3" x="16" y="64" name="inst_D9E6C45C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy_bug" x="128" y="-48" name="inst_359D9EC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy_bug" x="416" y="-128" name="inst_A7DF5665" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_enemy_bug" x="192" y="-192" name="inst_4CB5401B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
