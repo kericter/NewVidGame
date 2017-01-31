@@ -28,6 +28,23 @@
     <sprite>sprites\spr_enemy_bullet</sprite>
     <sprite>sprites\obj_box_2</sprite>
     <sprite>sprites\spr_title</sprite>
+    <sprites name="Level 3">
+      <sprites name="tileset">
+        <sprite>sprites\spr_bbot_left</sprite>
+        <sprite>sprites\spr_bbot_right</sprite>
+        <sprite>sprites\spr_btop_right</sprite>
+        <sprite>sprites\spr_btop_left</sprite>
+        <sprite>sprites\spr_btileset_botright</sprite>
+        <sprite>sprites\spr_btileset_botleft</sprite>
+        <sprite>sprites\spr_btileset_botcenter</sprite>
+        <sprite>sprites\spr_btileset_centerright</sprite>
+        <sprite>sprites\spr_btileset_centerleft</sprite>
+        <sprite>sprites\spr_btileset_center</sprite>
+        <sprite>sprites\spr_btileset_topright</sprite>
+        <sprite>sprites\spr_btileset__topleft</sprite>
+        <sprite>sprites\spr_btileset_topcenter</sprite>
+      </sprites>
+    </sprites>
     <sprites name="level_two">
       <sprites name="tileset">
         <sprite>sprites\spr_two_top_left</sprite>
@@ -154,6 +171,21 @@
       <object>objects\obj_trans_crnr_botleft</object>
       <object>objects\obj_trans_crnr_botright</object>
     </objects>
+    <objects name="tileset_3">
+      <object>objects\obj_bbot_left</object>
+      <object>objects\obj_bbot_right</object>
+      <object>objects\obj_btop_right</object>
+      <object>objects\obj_btop_left</object>
+      <object>objects\obj_btileset_botright</object>
+      <object>objects\obj_btileset_botleft</object>
+      <object>objects\obj_btileset_botcenter</object>
+      <object>objects\obj_btileset_centerright</object>
+      <object>objects\obj_btileset_centerleft</object>
+      <object>objects\obj_btileset_center</object>
+      <object>objects\obj_btileset_topright</object>
+      <object>objects\obj_btileset_topleft</object>
+      <object>objects\obj_btileset_topcenter</object>
+    </objects>
     <object>objects\obj_menu</object>
     <object>objects\obj_score</object>
     <object>objects\obj_player</object>
@@ -193,11 +225,11 @@
     <object>objects\obj_TSA</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_level_three</room>
     <room>rooms\rm_title_screen</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_level_one</room>
     <room>rooms\rm_level_two_</room>
-    <room>rooms\rm_level_three</room>
     <room>rooms\rm_tutorial</room>
     <room>rooms\rm_vectory_</room>
   </rooms>
