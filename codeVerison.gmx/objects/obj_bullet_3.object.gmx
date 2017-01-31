@@ -26,20 +26,20 @@
           <argument>
             <kind>1</kind>
             <string>if (global.pause) exit;
-hspeed = 30;
+speed = 30;
 image_angle = direction;
 // Room clipping
 destroy = instance_place(x,y, obj_box);
 if (destroy) instance_destroy();
 // Red enemy
-hit_1 = instance_place(x,y, obj_enemy_red);
+hit_1 = instance_place(x,y, obj_enemy_red_1);
 if (hit_1 != noone) {
     hit_1.hp -= 1;
     audio_play_sound(snd_hit,1,false);
     instance_destroy();
 }
 // Blue enemy
-hit_2 = instance_place(x,y, obj_enemy_blue);
+hit_2 = instance_place(x,y, obj_enemy_blue_1);
 if (hit_2 != noone) {
     hit_2.hp -= 1;
     audio_play_sound(snd_hit,1,false);
@@ -71,10 +71,16 @@ if (hit_6 != noone) {
     hit_6.hp -= 1;
     instance_destroy();
 }
-// Boss
-hit_7 = instance_place(x,y, obj_boss);
+hit_7 = instance_place(x,y, obj_turret_2);
 if (hit_7 != noone) {
     hit_7.hp -= 1;
+    audio_play_sound(snd_hit,1,false);
+    instance_destroy();
+}
+// Boss
+hit_8 = instance_place(x,y, obj_boss);
+if (hit_8 != noone) {
+    hit_8.hp -= 1;
     instance_destroy();
     audio_play_sound(snd_hit,1,false);
 }
@@ -110,12 +116,12 @@ if (instance_place(x,y,obj_boss_2)) {
     audio_play_sound(snd_hit,1,false);
 }
 if (instance_place(x,y,obj_yellow)) {
-    obj_yellow.hp -=1;
+    obj_yellow.hp -= 1;
     instance_destroy();
     audio_play_sound(snd_hit,1,false);
 }
 if (instance_place(x,y,obj_brain)) {
-    obj_brain.hp -=1;
+    obj_brain.hp -= 1;
     instance_destroy();
     audio_play_sound(snd_hit,1,false);
 }
@@ -123,6 +129,12 @@ if (instance_place(x,y,obj_boss_3)) {
     obj_boss_3.hp -= 1;
     instance_destroy();
     audio_play_sound(snd_hit,1,false);
+}
+hit_88 = instance_place(x,y, obj_bul_1);
+if (hit_88 != noone) {
+    hit_88.hp -= 1;
+    audio_play_sound(snd_hit,1,false);
+    instance_destroy();
 }
 </string>
           </argument>

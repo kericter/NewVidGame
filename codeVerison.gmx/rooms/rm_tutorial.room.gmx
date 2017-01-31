@@ -59,7 +59,6 @@
     <instance objName="obj_step_1" x="208" y="64" name="inst_350260F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_step_2" x="432" y="64" name="inst_FA4711D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_step_3" x="16" y="64" name="inst_F764E9F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_brain" x="224" y="-96" name="inst_AE9A3CD5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_score" x="0" y="16" name="inst_D1BBA800" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>

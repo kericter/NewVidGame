@@ -122,6 +122,23 @@
         <sprite>sprites\spr_trans2_crnr_botright</sprite>
       </sprites>
     </sprites>
+    <sprites name="level_four">
+      <sprites name="tileset4">
+        <sprite>sprites\spr_tile4_center</sprite>
+        <sprite>sprites\spr_tile4_topleft</sprite>
+        <sprite>sprites\spr_tile4_top</sprite>
+        <sprite>sprites\spr_tile4_topright</sprite>
+        <sprite>sprites\spr_tile4_cntrright</sprite>
+        <sprite>sprites\spr_tile4_cntrleft</sprite>
+        <sprite>sprites\spr_tile4_botleft</sprite>
+        <sprite>sprites\spr_tile4_bot</sprite>
+        <sprite>sprites\spr_tile4_botright</sprite>
+        <sprite>sprites\spr_tile4_crnr_topleft</sprite>
+        <sprite>sprites\spr_tile4_crnr_topright</sprite>
+        <sprite>sprites\spr_tile4_crnr_botleft</sprite>
+        <sprite>sprites\spr_tile4_crnr_botright</sprite>
+      </sprites>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -165,7 +182,7 @@
       <object>objects\obj_two_left</object>
       <object>objects\obj_two_top_right</object>
       <object>objects\obj_two_top</object>
-      <object>objects\obj_blue_rop_left</object>
+      <object>objects\obj_two_crnr_topleft</object>
       <object>objects\obj_blue_bottom_right</object>
       <object>objects\obj_blue_bottom_left</object>
       <object>objects\obj_blue_top_right</object>
@@ -173,6 +190,7 @@
       <object>objects\obj_two_turretbase</object>
     </objects>
     <objects name="tileset_3">
+      <object>objects\obj_btileset_center</object>
       <object>objects\obj_bbot_left</object>
       <object>objects\obj_bbot_right</object>
       <object>objects\obj_btop_right</object>
@@ -182,7 +200,6 @@
       <object>objects\obj_btileset_botcenter</object>
       <object>objects\obj_btileset_centerright</object>
       <object>objects\obj_btileset_centerleft</object>
-      <object>objects\obj_btileset_center</object>
       <object>objects\obj_btileset_topright</object>
       <object>objects\obj_btileset_topleft</object>
       <object>objects\obj_btileset_topcenter</object>
@@ -252,16 +269,17 @@
     <object>objects\Victory</object>
     <object>objects\obj_pause</object>
     <object>objects\obj_title</object>
+    <object>objects\obj_TSA</object>
     <object>objects\obj_boss_3</object>
     <object>objects\obj_bul_1</object>
-    <object>objects\obj_TSA</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_level_one</room>
+    <room>rooms\rm_tsa</room>
     <room>rooms\rm_title_screen</room>
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_level_three</room>
+    <room>rooms\rm_level_one</room>
     <room>rooms\rm_level_two_</room>
+    <room>rooms\rm_level_three</room>
     <room>rooms\rm_tutorial</room>
     <room>rooms\rm_vectory_</room>
   </rooms>

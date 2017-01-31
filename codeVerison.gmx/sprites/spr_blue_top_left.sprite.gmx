@@ -21,6 +21,5 @@
   <height>32</height>
   <frames>
     <frame index="0">images\spr_blue_top_left_0.png</frame>
-    <frame index="1">images\spr_blue_top_left_1.png</frame>
   </frames>
 </sprite>

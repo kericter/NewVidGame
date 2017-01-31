@@ -28,7 +28,7 @@
             <string>/// Hp
 hp = 1;
 state = scr_enemy;
-spd = 1;
+spd = 2;
 </string>
           </argument>
         </arguments>

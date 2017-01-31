@@ -71,10 +71,16 @@ if (hit_6 != noone) {
     hit_6.hp -= 1;
     instance_destroy();
 }
-// Boss
-hit_7 = instance_place(x,y, obj_boss);
+hit_7 = instance_place(x,y, obj_turret_2);
 if (hit_7 != noone) {
     hit_7.hp -= 1;
+    audio_play_sound(snd_hit,1,false);
+    instance_destroy();
+}
+// Boss
+hit_8 = instance_place(x,y, obj_boss);
+if (hit_8 != noone) {
+    hit_8.hp -= 1;
     instance_destroy();
     audio_play_sound(snd_hit,1,false);
 }
