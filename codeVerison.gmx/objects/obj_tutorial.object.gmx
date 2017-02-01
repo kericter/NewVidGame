@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>intro = "Tap 'space' or Left Click to  shoot";
+            <string>intro = "Tap 'Space' to  shoot";
 alarm[0] = room_speed * 5;
 </string>
           </argument>
