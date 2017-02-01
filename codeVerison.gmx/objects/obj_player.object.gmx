@@ -174,7 +174,6 @@ if (hp &lt;= 0) {
     sprite_index = spr_explosion;
     image_speed = 1;
     audio_play_sound(snd_explosion, 10, false);
-    score = 0;
     if (one = 1) room_goto(rm_level_one);
     if (two = 1) room_goto(rm_level_two_);
     if (three = 1) room_goto(rm_level_three);
