@@ -204,6 +204,21 @@
       <object>objects\obj_btileset_topleft</object>
       <object>objects\obj_btileset_topcenter</object>
     </objects>
+    <objects name="tileset_4">
+      <object>objects\obj_tile4_center</object>
+      <object>objects\obj_tile4_topleft</object>
+      <object>objects\obj_tile4_top</object>
+      <object>objects\obj_tile4_topright</object>
+      <object>objects\obj_tile4_cntrright</object>
+      <object>objects\obj_tile4_cntrleft</object>
+      <object>objects\obj_tile4_botleft</object>
+      <object>objects\obj_tile4_bot</object>
+      <object>objects\obj_tile4_botright</object>
+      <object>objects\obj_tile4_crnr_topleft</object>
+      <object>objects\obj_tile4_crnr_topright</object>
+      <object>objects\obj_tile4_crnr_botleft</object>
+      <object>objects\obj_tile4_crnr_botright</object>
+    </objects>
     <objects name="transistion_1">
       <object>objects\obj_trans_top</object>
       <object>objects\obj_trans_center</object>
@@ -248,12 +263,12 @@
     <object>objects\obj_turret_top_right</object>
     <object>objects\obj_turret_bottom_left</object>
     <object>objects\obj_turret_bottom_right</object>
-    <object>objects\obj_enemy_brown</object>
     <object>objects\obj_enemy_red_1</object>
     <object>objects\obj_enemy_blue_1</object>
     <object>objects\obj_enemy_bug</object>
     <object>objects\obj_leaf</object>
     <object>objects\obj_enemy_bullet</object>
+    <object>objects\obj_enemy_brown</object>
     <object>objects\obj_leaf_bullet</object>
     <object>objects\obj_step_1</object>
     <object>objects\obj_step_2</object>
@@ -274,12 +289,12 @@
     <object>objects\obj_bul_1</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_level_two_</room>
+    <room>rooms\rm_level_three</room>
     <room>rooms\rm_tsa</room>
     <room>rooms\rm_title_screen</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_level_one</room>
-    <room>rooms\rm_level_two_</room>
-    <room>rooms\rm_level_three</room>
     <room>rooms\rm_tutorial</room>
     <room>rooms\rm_vectory_</room>
   </rooms>

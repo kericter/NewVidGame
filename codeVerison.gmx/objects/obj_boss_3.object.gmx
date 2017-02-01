@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hp = 200;
+            <string>hp = 100;
 vspeed = 1;
 goodtogo = 0;
 ham = 3;
