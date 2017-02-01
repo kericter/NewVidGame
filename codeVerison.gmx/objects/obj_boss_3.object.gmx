@@ -54,9 +54,10 @@ ham4 = 10;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hspeed = ham;
+            <string>///right
+hspeed = ham;
 vspeed = 0;
-alarm[1] = ham3;
+alarm[1] = ham2;
 </string>
           </argument>
         </arguments>
@@ -79,7 +80,8 @@ alarm[1] = ham3;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hspeed = 0;
+            <string>///up
+hspeed = 0;
 vspeed = -ham;
 alarm[4] = ham2;
 
@@ -105,9 +107,10 @@ alarm[4] = ham2;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hspeed = -ham;
+            <string>///left
+hspeed = -ham;
 vspeed = 0;
-alarm[3] = ham3;
+alarm[3] = ham2;
 </string>
           </argument>
         </arguments>
@@ -130,7 +133,8 @@ alarm[3] = ham3;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>hspeed = 0;
+            <string>///down
+hspeed = 0;
 vspeed = ham;
 alarm[2] = ham2;
 
@@ -198,7 +202,7 @@ bullet8.direction = 315;
             <string>if (goodtogo == 1) {
 if (alarm[0] = -1) alarm[0] = ham4;
 }
-if (hp == 100 || hp == 101 || hp = 99) {
+if (hp == 30 || hp == 31 || hp = 29) {
     ham = 6;
     ham2 = 15;
     ham3 = 30;
@@ -212,6 +216,7 @@ if (hp &lt;= 0) {
 if (instance_place(x,y,obj_box)) goodtogo = 1;
 
 if (instance_place(x,y,obj_step_1)) {
+    ///right
     vspeed = 0;
     hspeed = ham;
     instance_create(x,y+20,obj_place);
