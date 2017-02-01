@@ -294,12 +294,12 @@
     <object>objects\obj_bul_1</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_level_three</room>
     <room>rooms\rm_tsa</room>
     <room>rooms\rm_title_screen</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_level_one</room>
     <room>rooms\rm_level_two_</room>
+    <room>rooms\rm_level_three</room>
     <room>rooms\rm_tutorial</room>
     <room>rooms\rm_vectory_</room>
   </rooms>
