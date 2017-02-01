@@ -11,13 +11,13 @@ if (hp <= 0) {
     image_angle = random(360);
     state = scr_death_state;
     audio_play_sound(snd_explosion, 10, false);
-    global.points = global.points + 294;
+    score = score + 294;
 }
 // damage player
     hit = instance_place(x,y, obj_player);
 if (hit != noone)
 {
-    hit.hp -= .5;
+    hit.hp -= 1.5;
 }
 if (place_meeting(x,y,object_box2)) instance_destroy();
 if (place_meeting(x,y,obj_box)) spd = 2;

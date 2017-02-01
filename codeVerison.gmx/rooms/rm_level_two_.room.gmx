@@ -2112,6 +2112,8 @@
     <instance objName="obj_enemy_blue_1" x="272" y="-3584" name="inst_518434B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_blue_1" x="368" y="-3664" name="inst_A0CD0856" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_blue_1" x="400" y="-2720" name="inst_6E3C26FF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_place" x="224" y="-32" name="inst_D3B7F46F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_level_two" x="-16" y="-16" name="inst_FBF287CA" locked="0" code="" scaleX="16" scaleY="9.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

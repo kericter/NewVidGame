@@ -87,7 +87,7 @@
         <sprite>sprites\spr_boss_top_left</sprite>
         <sprite>sprites\spr_boss_bottom_right</sprite>
         <sprite>sprites\spr_boss_bottom_left</sprite>
-        <sprite>sprites\sprite55</sprite>
+        <sprite>sprites\spr_boss_21</sprite>
         <sprite>sprites\spr_enemy_leaf</sprite>
       </sprites>
     </sprites>
@@ -252,7 +252,11 @@
     <object>objects\obj_turret_2</object>
     <object>objects\obj_menu</object>
     <object>objects\obj_score</object>
+    <object>objects\obj_score_victory</object>
     <object>objects\obj_player</object>
+    <object>objects\obj_level_one</object>
+    <object>objects\obj_level_two</object>
+    <object>objects\obj_level_three</object>
     <object>objects\obj_bullet</object>
     <object>objects\obj_bullet_2</object>
     <object>objects\obj_bullet_3</object>
@@ -268,6 +272,7 @@
     <object>objects\obj_enemy_bug</object>
     <object>objects\obj_leaf</object>
     <object>objects\obj_enemy_bullet</object>
+    <object>objects\obj_enemy_bullet_boss</object>
     <object>objects\obj_enemy_brown</object>
     <object>objects\obj_leaf_bullet</object>
     <object>objects\obj_step_1</object>
@@ -289,12 +294,12 @@
     <object>objects\obj_bul_1</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_level_three</room>
+    <room>rooms\rm_level_one</room>
+    <room>rooms\rm_level_two_</room>
     <room>rooms\rm_tsa</room>
     <room>rooms\rm_title_screen</room>
     <room>rooms\rm_menu</room>
-    <room>rooms\rm_level_one</room>
-    <room>rooms\rm_level_two_</room>
-    <room>rooms\rm_level_three</room>
     <room>rooms\rm_tutorial</room>
     <room>rooms\rm_vectory_</room>
   </rooms>

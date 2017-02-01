@@ -210,7 +210,7 @@ if (hp == 30 || hp == 31 || hp = 29) {
 }
 if (hp &lt;= 0) {
     room_goto(rm_vectory_);
-    global.points += 10000;
+    score += 10000;
     instance_destroy();
 }
 if (instance_place(x,y,obj_box)) goodtogo = 1;
@@ -222,6 +222,30 @@ if (instance_place(x,y,obj_step_1)) {
     instance_create(x,y+20,obj_place);
     alarm[1] = ham2;
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_self();
+draw_healthbar(x-25,y-30,x+25,y-36,hp,c_black,c_red,c_green,0,true,true);
 </string>
           </argument>
         </arguments>

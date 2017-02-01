@@ -55,7 +55,7 @@ global.yellowdead = 0;
           <argument>
             <kind>1</kind>
             <string>if (hp &lt;= 0) {
-    global.points = global.points + 1000;
+    score += 500;
     global.yellowdead = 1;
 }
 </string>

@@ -35,6 +35,11 @@ image_speed = 0;
 state = scr_movment;
 spd = 1;
 cool = 0;
+
+one = 0;
+two = 0;
+three = 0;
+
 </string>
           </argument>
         </arguments>
@@ -168,15 +173,27 @@ script_execute(state);
 if (hp &lt;= 0) {
     sprite_index = spr_explosion;
     image_speed = 1;
+    audio_play_sound(snd_explosion, 10, false);
+    score = 0;
+    if (one = 1) room_goto(rm_level_one);
+    if (two = 1) room_goto(rm_level_two_);
+    if (three = 1) room_goto(rm_level_three);
+
     state = scr_death_state;
-    if (hp == 0) audio_play_sound(snd_explosion, 10, false);
 }
 if (instance_exists(obj_level_complete1)) {
     room_goto(rm_vectory_);
 }
-if (cool = 1) {
-    
+if (instance_place(x,y,obj_level_one)) {
+    one = 1;
+} 
+if (instance_place(x,y,obj_level_two)) {
+    two = 1;
 }
+if (instance_place(x,y,obj_level_three)) {
+    three = 1;
+}
+
 </string>
           </argument>
         </arguments>

@@ -931,12 +931,12 @@
     <instance objName="obj_center" x="288" y="-2080" name="inst_EE680981" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_center" x="448" y="-2080" name="inst_635C11F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_score" x="0" y="0" name="inst_2A21784C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_boss" x="208" y="-2112" name="inst_199738D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_boss" x="240" y="-2096" name="inst_199738D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_place" x="112" y="144" name="inst_87B6FBF8" locked="0" code="" scaleX="7.5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_turret_top_left" x="220" y="-2112" name="inst_CEDB0BAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_turret_top_right" x="269" y="-2112" name="inst_04867DE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_turret_bottom_left" x="209" y="-2083" name="inst_476E585E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_turret_bottom_right" x="280" y="-2080" name="inst_0FCF29F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_turret_top_left" x="219" y="-2111" name="inst_CEDB0BAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_turret_top_right" x="265" y="-2111" name="inst_04867DE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_turret_bottom_left" x="208" y="-2086" name="inst_476E585E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_turret_bottom_right" x="276" y="-2086" name="inst_0FCF29F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_center" x="208" y="-272" name="inst_82F2EE5C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_center" x="208" y="-304" name="inst_F79B01F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_center" x="240" y="-272" name="inst_E497A04A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1693,6 +1693,7 @@
     <instance objName="obj_two_crnr_topleft" x="160" y="-3424" name="inst_3DC2A17B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_two_crnr_topleft" x="128" y="-3392" name="inst_2FD02C7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_two_crnr_topleft" x="96" y="-3360" name="inst_276E5C3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_level_one" x="-32" y="-48" name="inst_FA9C1766" locked="0" code="" scaleX="18" scaleY="11.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

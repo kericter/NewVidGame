@@ -39,5 +39,3 @@ if (keyboard_check_pressed(vk_space)) {
     bullet_3.direction = 90;
     audio_play_sound(snd_shoot, 10, false);
 }
-
-if (hp <= 0) room_goto(rm_menu);

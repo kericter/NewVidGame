@@ -80,7 +80,7 @@ if (hit_7 != noone) {
 // Boss
 hit_8 = instance_place(x,y, obj_boss);
 if (hit_8 != noone) {
-    hit_8.hp -= 1;
+    hit_8.hp -= 2;
     instance_destroy();
     audio_play_sound(snd_hit,1,false);
 }
@@ -126,13 +126,19 @@ if (instance_place(x,y,obj_brain)) {
     audio_play_sound(snd_hit,1,false);
 }
 if (instance_place(x,y,obj_boss_3)) {
-    obj_boss_3.hp -= 1;
+    obj_boss_3.hp -= .5;
     instance_destroy();
     audio_play_sound(snd_hit,1,false);
 }
 hit_88 = instance_place(x,y, obj_bul_1);
 if (hit_88 != noone) {
     hit_88.hp -= 1;
+    audio_play_sound(snd_hit,1,false);
+    instance_destroy();
+}
+hit_87 = instance_place(x,y, obj_enemy_bullet_boss);
+if (hit_87 != noone) {
+    hit_87.hp -= 1;
     audio_play_sound(snd_hit,1,false);
     instance_destroy();
 }
